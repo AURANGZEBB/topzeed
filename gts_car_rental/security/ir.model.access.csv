@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_document_attachment,document_attachment,model_document_attachment,,1,1,1,1
+access_advance_payment,access.advance.payment,model_account_advance_payment,,1,1,1,1
+access_deposit_payment,access.deposit.payment,model_account_deposit_payment,,1,1,1,1
+access_ir_attachment,access.ir.attachment,base.model_ir_attachment,,1,1,1,1
+
+

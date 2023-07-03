@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+
+        <record id="account_account_list_vat_report" model="ir.ui.view">
+            <field name="name">account.account.list.vat.report</field>
+            <field name="model">account.account</field>
+            <field name="inherit_id" ref="account.view_account_list"/>
+            <field name="arch" type="xml">
+                <field name="company_id" position="after">
+                    <field name="is_a_vat_account"/>
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

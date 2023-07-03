@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vat_report_wizard,vat.report.wizard,model_vat_report_wizard,account.group_account_user,1,1,1,1
+access_od_vat_report_download,od.vat.report.download,model_od_vat_report_download,account.group_account_user,1,1,1,1
+access_tax_payment_adjustment_wizard,tax.payment.adjustment.wizard,model_tax_payment_adjustment_wizard,account.group_account_user,1,1,1,1

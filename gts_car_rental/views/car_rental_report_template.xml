@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="booking_email_template" model="mail.template">
+            <field name="name">VEHICLE BOOKING EMAIL TEMPLATE</field>
+            <field name="subject">Today's (${datetime.datetime.now().strftime('%d.%m.%Y')}) Transaction Details</field>
+            <field name="model_id" ref="gts_car_rental.model_sale_order"/>
+            <field name="auto_delete" eval="False"/>
+            <field name="email_from">xyz@gmail.com</field>
+            <field name="email_to">abc@gmail.com</field>
+<!--            <field name="report_template" ref="action_example_pdf"/>-->
+            <field name="body_html">
+                <![CDATA[
+                <p>Dear ${()},
+                <br/>
+                <br/>
+                Good job, this is our first e-mail template!<br/>
+                </p>
+                Regards,<br/>
+<!--                ${(object.company_id.name)} -->
+                ]]>
+            </field>
+        </record>
+    </data>
+</odoo>

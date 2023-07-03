@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_payment_receipt_document_inherit" inherit_id="account.report_payment_receipt_document">
+        <xpath expr="//div[@class='mb-4 mt-3']" position="replace">
+            <div class="row mt64">
+                <div class="col-6" t-if="o.date">
+                    <strong>Payment Date: </strong> <span t-field="o.date"/>
+                </div>
+                <div class="col-6" t-if="o.payment_type=='inbound'">
+                    <strong>سند قبض </strong>
+                </div>
+                <div class="col-6" t-if="o.payment_type=='outbound'">
+                    <strong>سند صرف </strong>
+                </div>
+
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+
+    <t t-name="accountHiearchy.buttons">
+        <t t-if="widget.given_context.active_id">
+            <button id="print_hierarchy_pdf" type="button" class='btn btn-primary o_account_hierarchy_pdf'>Print PDF</button>
+            <button id="print_hierarchy_xls" type="button" class='btn btn-primary o_account_hierarchy_xls'>Print XLS</button>
+
+            <button id="expand_hierarchy" title="Expand rows" class="o_button_expand_hierarchy btn btn-secondary"><i class="fa fa-expand"/></button>
+            <button id="collapse_hierarchy" title="Collapse rows" class="o_button_collapse_hierarchy btn btn-secondary"><i class="fa fa-compress"/></button>
+        </t>
+    </t>
+
+</templates>

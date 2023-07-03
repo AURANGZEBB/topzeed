@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sale_order_view_form_new" model="ir.ui.view">
+        <field name="name">fleet.vehicle.form.inherit</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_form" />
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+
+             <button class="oe_stat_button" type="object"
+                        name="action_view_sale_order" icon="fa-pencil-square-o">
+                        <field name="sale_order_count" widget="statinfo" string="Sale Order"/>
+                    </button>
+            </div>
+            <xpath expr="//form//sheet//div[@class='oe_title']//h2" position="after">
+                <label for="ar_license_plate" class="oe_edit_only"/>
+                <h2>
+                    <field name="ar_license_plate" class="oe_inline" placeholder=""/>
+                </h2>
+            </xpath>
+            <field name="company_id" position="after">
+                <field name="registration_no"/>
+                <field name="ar_registration_no"/>
+                <field name="tracker"/>
+                <field name="service_odometer"/>
+            </field>
+        </field>
+    </record>
+    <record id="fleet_kanban_inherit" model="ir.ui.view">
+        <field name="name">fleet.kanban.inherit</field>
+        <field name="model">fleet.vehicle</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_view_kanban"/>
+        <field name="arch" type="xml">
+<!--            <xpath expr="//kanban" position="attributes">-->
+<!--                <attribute name="default_group_by"></attribute>-->
+<!--            </xpath>-->
+            <field name="contract_count" position="after">
+                <field name="status"/>
+            </field>
+            <xpath expr="//kanban//div[@class='oe_kanban_details']" position="inside">
+                <div class="o_kanban_record_top">
+                    <div class="o_kanban_record_headings">
+                        <strong class="o_kanban_record_title">
+                            <div class="float-right" t-if="record.status.raw_value == 'checkin'" name="presence_present">
+                                <!-- Vehicle is present/connected   -->
+                                <span class="fa fa-circle text-success" role="img" aria-label="Availble" title="Availble" name="presence_present">
+                                </span>
+                            </div>
+                            <div class="float-right" t-if="record.status.raw_value == 'checkout'" name="presence_absent">
+                                <!-- Vehicle is not present  -->
+                                <span class="fa fa-circle-o text-danger" role="img" aria-label="Out" title="Out" name="presence_absent">
+                                </span>
+                            </div>
+                        </strong>
+                    </div>
+                </div>
+            </xpath>
+        </field></record>
+</odoo>

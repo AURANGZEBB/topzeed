@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="due_amount_cost">
+            <field name="name">due.amount.cost</field>
+            <field name="model">due.amount</field>
+            <field name="groups_id" eval="[(4,ref('base.group_user'))]"/>
+            <field name="arch" type="xml">
+                <form>
+                    <group string="Calculate Extra Price">
+                        <group>
+                            <field name="checkout" readonly="1"/>
+                            <field name="checkin" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="odometer"/>
+                            <field name="actual_date"/>
+                            <field name="tax_id" domain="[('type_tax_use', '=', 'sale')]"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="odometer_price" readonly="1"/>
+                            <field name="day_cost" readonly="1"/>
+                            <field name="hour_cost" readonly="1"/>
+                            <field name="total_extra_charges" readonly="1"/>
+                            <field name="total_tax" readonly="1"/>
+                            <field name="total_tax_included" readonly="1"/>
+
+                        </group>
+                        <group>
+                            <field name="total_due_cost" readonly="1"/>
+                            <field name="paid_amount" readonly="1"/>
+                            <field name="remaining_amount" readonly="1" attrs="{'invisible': [('remaining_amount', '=', 0)]}"/>
+                            <field name="returning_amount" readonly="1" attrs="{'invisible': [('returning_amount', '=', 0)]}"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Calculate" name="calculate_extra_price" type="object" class="btn-primary o_mail_send"/>
+                        <button string="Close" class="btn-secondary" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_amount_due_wizard" model="ir.actions.act_window">
+            <field name="name">Due Calculation</field>
+            <field name="res_model">due.amount</field>
+<!--            <field name="binding_model_id" ref="gts_crm_payment_milstone.payment_confirm_wizard_view"/>-->
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">current</field>
+        </record>
+    </data>
+</odoo>

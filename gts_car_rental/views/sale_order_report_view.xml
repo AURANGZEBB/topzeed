@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_saleorder_document_inherit_sale_management_new" inherit_id="sale.report_saleorder_document">
+        <!-- <xpath expr="//t[@t-set='address']" position="replace">
+        <div>
+             <table class="table table-sm o_main_booking" style="width:50%" t-if="doc.gts_car_rental_flag == True">
+
+                <thead style="display: table-row-group">
+                    <tr width="50px">
+                        <th name="th_description" class="text-left">Booking Information</th>
+                        <th></th>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Start Date</td>
+
+                   <td name="td_name"><span t-field="doc.date_start"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">End Date</td>
+
+                   <td name="td_name"><span t-field="doc.date_end"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Vehicle</td>
+
+                    <td name="td_name"><span t-field="doc.vehicle_id"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Driver Name</td>
+
+                    <td name="td_name"><span t-field="doc.driver_id"/></td>
+                </tr>
+                <tr width="50px">
+                    <td name="th_description" class="text-left">Odometer</td>
+
+                    <td name="td_name"><span t-field="doc.value"/></td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div>
+
+        </xpath> -->
+        <xpath expr="//div[@class='page']" position="before">
+
+
+            <table style="width:100%" t-if="doc.car_rental_flag == True">
+                <h4>Booking Information</h4>
+
+
+  <tr>
+    <th>Booking From</th>
+    <th>Booking Till</th>
+    <th>Vehicle</th>
+     <th>Driver Name</th>
+      <th>Odometer</th>
+  </tr>
+  <tr>
+    <td name="td_name"><span t-field="doc.date_start"/></td>
+                       <td name="td_name"><span t-field="doc.date_end"/></td>
+                        <td name="td_name"><span t-field="doc.vehicle_id"/></td>
+                         <td name="td_name"><span t-field="doc.driver_id"/></td>
+                         <td name="td_name"><span t-field="doc.value"/></td>
+
+
+  </tr>
+ 
+</table>
+               <!--  <thead style="display: table-row-group">
+                    <tr width="50px">
+                        <th name="th_description" class="text-left">Booking Information</th>
+                        <th></th>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Start Date</td>
+
+                   <td name="td_name"><span t-field="doc.date_start"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">End Date</td>
+
+                   <td name="td_name"><span t-field="doc.date_end"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Vehicle</td>
+
+                    <td name="td_name"><span t-field="doc.vehicle_id"/></td>
+                </tr>
+                 <tr width="50px">
+                    <td name="th_description" class="text-left">Driver Name</td>
+
+                    <td name="td_name"><span t-field="doc.driver_id"/></td>
+                </tr>
+                <tr width="50px">
+                    <td name="th_description" class="text-left">Odometer</td>
+
+                    <td name="td_name"><span t-field="doc.value"/></td>
+                </tr>
+            </thead>
+        </table>
+    </xpath> -->
+</xpath>
+</template>                
+ </odoo>
+  

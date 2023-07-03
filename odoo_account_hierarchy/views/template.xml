@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="accounts_heirarchy_report">
+        <div class="accounts_heirarchy_report_table table-responsive">
+            <div>
+                <t t-if="not company_name">
+                    <span class="text-left">
+                        <h6 style="padding: 8px !important;">
+                            <span>Chart Of Account Not Loaded. Please Reload from Chart of Accounts Hiearchy Menu..</span>
+                        </h6>
+                    </span>
+                </t>
+                <t t-if="company_name">
+                    <span class="text-left">
+                        <h6 style="padding: 8px !important;">
+                            <span>Chart of Account: <t t-raw="company_name" /></span>
+                        </h6>
+                    </span>
+                </t>
+                
+                <t t-if="company_name">
+                    <table  class="o_list_view table table-condensed">
+                        <thead>
+                            <tr>
+                                <th class="text-left">Code</th>
+                                <th class="text-left">Name</th>
+                                <th class="text-left">Type</th>
+                                <th class="text-left">Debit</th>
+                                <th class="text-left">Credit</th>
+                                <th class="text-left">Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <t t-call="odoo_account_hierarchy.accounts_heirarchy_report_lines"/>
+                        </tbody>
+                    </table>
+                </t>
+            </div>
+        </div>
+    </template>
+
+    <template id="accounts_heirarchy_report_lines">
+        <t t-foreach="lines" t-as="a">
+            <t t-set="trAttClass" t-value="'accounts_heirarchy_report_lines_style'"/>            
+            <t t-set="domainAttClass" t-value="'account_hierarchy_report_line_domain'"/>
+            
+            <t t-if="a['unfoldable'] == false">
+                <t t-set="domainAttClass" t-value="'account_hierarchy_report_line_domain_1'"/>
+            </t>
+            
+            <tr t-att-data-unfold="a['unfoldable']" t-att-data-id="a['id']" t-att-data-parent_id="a['parent_id']" t-att-data-rec_id="a['rec_id']" t-att-data-type="a['type']" t-att-data-active_id="a['active_id']" t-att-class="trAttClass">
+                <t t-set="tdAttClass" t-value="'accounts_hierarchy_report_line_td'" />                
+                <t t-set="line_column" t-value="0" />
+                <t t-foreach="a['line_columns']" t-as="col">                    
+                    <t t-set="line_column" t-value="line_column + 1" />
+                    <td t-att-data-id="a.get('id')"  
+                        t-att-data-rec_id="a['rec_id']" 
+                        t-att-data-active_id="a['active_id']" 
+                        t-att-data-level="a['level']" 
+                        t-att-class="tdAttClass">                        
+                        <t t-if="line_column == 1">
+                            <span t-att-style="line_space_td"></span>
+                            <span t-att-class="domainAttClass" t-att-data-active-id="a['id']"></span>                        
+                            <t t-if="a.get('unfoldable')">
+                                <span t-att-data-id="a['id']" class="accounts_hierarchy_unfoldable accounts_hierarchy_caret_icon">
+                                    <i class="fa fa-fw fa-caret-right"></i>
+                                </span>
+                            </t>
+                            <span><t t-raw="col" /></span>
+                        </t>
+                        <t t-else="">
+                            <span class="accounts_hierarchy_action" t-att-data-id="a['id']" t-att-data-active_id="a['active_id']">
+                                <t t-raw="col"/>
+                            </span>
+	                    </t>
+                    </td>                    
+                </t>
+            </tr>
+        </t>
+    </template>
+</odoo>

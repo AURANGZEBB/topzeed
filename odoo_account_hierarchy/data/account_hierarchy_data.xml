@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="account_hierarchy_action_tag" model="ir.actions.client">
+        <field name="name">Chart of Accounts Hiearchy</field>
+        <field name="tag">account_hierarchy</field>
+        <field name="context" eval="{'url': '/account_hierarchy/output_report_format/account_hierarchy/active_id', 'model': 'account.hierarchy'}" />
+    </record>
+
+</odoo>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="doc_attachment_wizard_view">
+            <field name="name">doc.attachment.form</field>
+            <field name="model">document.attachment</field>
+            <field name="groups_id" eval="[(4,ref('base.group_user'))]"/>
+            <field name="arch" type="xml">
+                <form>
+                    <group string="Please Attach Checklist!">
+                        <group>
+                            <field name="checkout" invisible="1"/>
+                            <field name="checkin" invisible="1"/>
+                            <field name="amount_paid" attrs="{'invisible': [('checkin','=', False)]}" readonly="1"/>
+                            <field name="tax_id" attrs="{'invisible': [('checkin','=', False)]}"/>
+                            <field name="actual_date"/>
+                            <field name="odometer_reading" required="1"/>
+                            <field name="attachment_ids" required="1" widget="many2many_binary"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Check Out" name="action_confirm" type="object" class="btn-primary o_mail_send" attrs="{'invisible': [('checkout','=',False)]}"/>
+                        <button string="Check In" name="action_confirm" type="object" class="btn-primary o_mail_send" attrs="{'invisible': [('checkin','=',False)]}"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_attachment_wizard" model="ir.actions.act_window">
+            <field name="name">Checklist Attachment</field>
+            <field name="res_model">document.attachment</field>
+<!--            <field name="binding_model_id" ref="gts_crm_payment_milstone.payment_confirm_wizard_view"/>-->
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

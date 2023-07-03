@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="tamm_autho_wizard_view">
+            <field name="name">tamm.autho.form</field>
+            <field name="model">tamm.authorization</field>
+            <field name="groups_id" eval="[(4,ref('base.group_user'))]"/>
+            <field name="arch" type="xml">
+                <form>
+                    <group string="Tamm Authorization Verification">
+                        <group>
+                            <field name="tamm_autho" />
+                        </group>
+                    </group>
+                    <footer>
+                        <button string="Done" name="action_autho" type="object" class="btn-primary o_mail_send" />
+                        <button string="Cancel" class="btn-secondary" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_authorization_wizard" model="ir.actions.act_window">
+            <field name="name">Tamm Authorization</field>
+            <field name="res_model">tamm.authorization</field>
+<!--            <field name="binding_model_id" ref="gts_crm_payment_milstone.payment_confirm_wizard_view"/>-->
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

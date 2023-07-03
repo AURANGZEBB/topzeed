@@ -1,0 +1,3616 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fleet
+# 	* sale_management
+# 	* gts_car_rental
+# 	* sale_crm
+# 	* ar_name
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-13 10:39+0000\n"
+"PO-Revision-Date: 2022-06-22 23:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1\n"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_vehicle_view_kanban_gts_car_rental
+msgid ""
+"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Availble\" title=\"Availble\" name=\"presence_present\">\n"
+"                                                    </span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_kanban_inherit
+msgid ""
+"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Availble\" title=\"Availble\" name=\"presence_present\">\n"
+"                                </span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_vehicle_view_kanban_gts_car_rental
+msgid ""
+"<span class=\"fa fa-circle-o text-danger\" role=\"img\" aria-label=\"Out\" title=\"Out\" name=\"presence_absent\">\n"
+"                                                    </span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_kanban_inherit
+msgid ""
+"<span class=\"fa fa-circle-o text-danger\" role=\"img\" aria-label=\"Out\" title=\"Out\" name=\"presence_absent\">\n"
+"                                </span>"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">End Date Contract Alert</span>"
+msgstr ""
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\"> Orders</span>"
+msgstr "<span class=\"o_stat_text\"> الأوامر</span>"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "<span> days before the end date</span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "<span>HR</span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "<span>KM/Day</span>"
+msgstr ""
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.product_template_form_inherit_view model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "<span>KM</span>"
+msgstr ""
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
+msgid "<span>Options</span>"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "<span>Send an alert </span>"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "<span>g/km</span>"
+msgstr "<span>جم/كم</span>"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "<span>kW</span>"
+msgstr "<span>كيلوواط</span>"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_needaction
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_needaction
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_needaction
+msgid "Action Needed"
+msgstr "إجراء مطلوب"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Activation Cost"
+msgstr "تكلفة التفعيل"
+
+#. modules: fleet, sale_management
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__active
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__active
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__active
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__active
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_exception_decoration
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_exception_decoration
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "زخرفة استثناء النشاط"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_state
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_state
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_type_icon
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_type_icon
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.mail_activity_type_action_config_fleet model:ir.ui.menu,name:fleet.fleet_menu_config_activity_type
+msgid "Activity Types"
+msgstr "أنواع النشاطات"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__actualy_checkin
+msgid "Actual Checked-In"
+msgstr "تسجيل الدخول الفعلي"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__actualy_checked
+msgid "Actual Checked-Out"
+msgstr "تم سحبها فعليا"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__actual_day
+msgid "Actual no of Days"
+msgstr "العدد الفعلي للأيام"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_tag_action
+msgid "Add a new tag"
+msgstr "اضافة وسم جديد"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Add a note"
+msgstr "إضافة ملاحظة"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Add a product"
+msgstr "إضافة منتج"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Add a section"
+msgstr "إضافة قسم"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Add one"
+msgstr "إضافة واحدة"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Add to cart"
+msgstr "أضف إلى عربة التسوق"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+msgid "Add to order lines"
+msgstr "إضافته لبنود الأمر"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__additional_driver_details
+msgid "Additional Driver Details"
+msgstr "تفاصيل إضافية عن السائق"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic model_terms:ir.ui.view,arch_db:ar_name.view_partner_form_arabic
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "Address (Arabic)"
+msgstr "العنوان (عربي)"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "Address Arabic"
+msgstr "العنوان عربي"
+
+#. module: fleet
+#: model:res.groups,name:fleet.fleet_group_manager
+msgid "Administrator"
+msgstr "مدير"
+
+#. module: gts_car_rental
+#: model:ir.model,name:gts_car_rental.model_account_advance_payment model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_advance_payment_register_form
+msgid "Advance Payment"
+msgstr "المبلغ المقدم"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__advance_payment
+msgid "Advanced Payment"
+msgstr "الدفع المتقدم"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_digest_digest__kpi_all_sale_total
+msgid "All Sales"
+msgstr "كافة المبيعات"
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,name:gts_car_rental.action_all_booking model:ir.ui.menu,name:gts_car_rental.menu_all_booking
+msgid "All booking"
+msgstr "جميع الحجوزات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "All vehicles"
+msgstr "كافة المركبات"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,help:gts_car_rental.field_product_product__allowed_odometer model:ir.model.fields,help:gts_car_rental.field_product_template__allowed_odometer
+msgid "Allowed Distance to Travel By Car on daily basis"
+msgstr "المسافة المسموح بها للسفر بالسيارة على أساس يومي"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__amount
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__amount
+msgid "Amount"
+msgstr "الكمية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__returning_amount
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__returning_amount
+msgid "Amount To Return"
+msgstr "مبلغ للعودة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "Analyse vehicle costs with analytic accounting"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "Analytic Accounting"
+msgstr "الحسابات التحليلية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_res_config_settings__module_fleet_account
+msgid "Analytic Accounting Fleet"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__amount_paid
+msgid "Aomunt Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Apply Change"
+msgstr ""
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_product_product__ar_name
+#: model:ir.model.fields,field_description:ar_name.field_product_template__ar_name model:ir.model.fields,field_description:ar_name.field_res_bank__ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__ar_name model:ir.model.fields,field_description:ar_name.field_res_users__ar_name
+msgid "Arabic Name"
+msgstr "الاسم العربي"
+
+#. modules: fleet, sale_management
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
+msgid "Archived"
+msgstr "مؤرشف"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__next_assignation_date
+msgid "Assignment Date"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__log_drivers model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_assignation_log_view_list
+msgid "Assignment Logs"
+msgstr ""
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__lead_id
+msgid "Associated Lead"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__attachment_ids
+msgid "Attachment"
+msgstr "مرفق"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_attachment_count
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_attachment_count
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. modules: fleet, gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_vehicle_view_kanban_gts_car_rental model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
+msgid "Attention: renewal overdue"
+msgstr "تحذير: تأخرتم عن موعد التجديد"
+
+#. module: sale_management
+#: model:ir.ui.menu,name:sale_management.menu_product_attribute_action
+msgid "Attributes"
+msgstr "الخصائص"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__transmission__automatic
+msgid "Automatic"
+msgstr "تلقائي"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Available"
+msgstr "متوفر"
+
+#. module: ar_name
+#: model:ir.model,name:ar_name.model_res_bank
+msgid "Bank"
+msgstr "البنك"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "Bank Name (Arabic)"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__vehicle_type__bike
+msgid "Bike"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.ui.menu,name:gts_car_rental.menu_booking
+msgid "Booking"
+msgstr "الحجز"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__date_start
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.report_saleorder_document_inherit_sale_management_new
+msgid "Booking From"
+msgstr "الحجز من"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.report_saleorder_document_inherit_sale_management_new
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "Booking Information"
+msgstr "معلومات الحجز"
+
+#. module: gts_car_rental
+#: model:ir.ui.menu,name:gts_car_rental.menu_quotation
+msgid "Booking Quotation"
+msgstr "اقتباس الحجز"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "Booking Status"
+msgstr "وضع الحجز"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__date_end
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.report_saleorder_document_inherit_sale_management_new
+msgid "Booking Till"
+msgstr "الحجز حتى"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__booking_type
+msgid "Booking Type"
+msgstr "نوع الحجز"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__brand_id model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_model_brand
+msgid "Brand of the vehicle"
+msgstr "العلامة التجارية للمركبة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__co2
+msgid "CO2 Emissions"
+msgstr "انبعاثات ثاني أكسيد الكربون"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_tree
+msgid "CO2 Emissions g/km"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__co2
+msgid "CO2 emissions of the vehicle"
+msgstr "انبعاثات ثاني أكسيد الكربون لهذه المركبة"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.due_amount_cost
+msgid "Calculate"
+msgstr "أحسب"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "Calculate Amount Owed"
+msgstr "حساب المبلغ المستحق"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.due_amount_cost
+msgid "Calculate Extra Price"
+msgstr ""
+
+#. modules: fleet, sale_crm, gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.doc_attachment_wizard_view model_terms:ir.ui.view,archgts_car_rental.tamm_autho_wizard_view
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_advance_payment_register_form
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_deposit_payment_register_form
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__cancelled
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_model__vehicle_type__car
+msgid "Car"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,name:gts_car_rental.action_Quotation_menu model:ir.actions.act_window,name:gts_car_rental.action_confirm_menu
+#: model:ir.ui.menu,name:gts_car_rental.car_booking_menu
+msgid "Car Rental"
+msgstr "تاجير سيارة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order_car_rental_flag
+msgid "Car Rental Flag"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_fleet_vehicle__status model:ir.model.fields,field_description:gts_car_rental.field_sale_order__status
+msgid "Car Status"
+msgstr "حالة السيارة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__car_value
+msgid "Catalog Value (VAT Incl.)"
+msgstr "قيمة الكتالوج (شاملة ضريبة القيمة المضافة)"
+
+#. modules: fleet, sale_management
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__category
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__product_uom_category_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__product_uom_category_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__product_uom_category_id
+msgid "Category"
+msgstr "فئة"
+
+#. module: fleet
+#: model:mail.message.subtype,description:fleet.mt_fleet_driver_updated model:mail.message.subtype,name:fleet.mt_fleet_driver_updated
+msgid "Changed Driver"
+msgstr "تغيير السائق"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__vin_sn
+msgid "Chassis Number"
+msgstr "رقم الشاسيه"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__check_in model_terms:ir.ui.view,arch_db:gts_car_rental.doc_attachment_wizard_view
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "Check In"
+msgstr "تصفيه"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__check_out model_terms:ir.ui.view,arch_db:gts_car_rental.doc_attachment_wizard_view
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.sale_order_view_form_inherit
+msgid "Check Out"
+msgstr "الدفع"
+
+#. module: ar_name
+#: model:ir.model.fields,help:ar_name.field_res_company__custom_footer
+msgid "Check this to define the report footer manually. Otherwise it will be filled in automatically."
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__fleet_vehicle__status__checkin
+msgid "Check-In"
+msgstr "تصفيه"
+
+#. module: gts_car_rental
+#: code:addons/gts_car_rental/wizard/document_attachment.py:0
+#, python-format
+msgid "Check-In Odometer reading must not be less than Check-Out Odometer reading"
+msgstr "يجب ألا تقل قراءة عداد المسافات لتسجيل الوصول عن قراءة عداد المسافات عند تسجيل المغادرة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__sale_order__status__checkin_pending
+msgid "Check-In Pending"
+msgstr "تسجيل الوصول معلق"
+
+#. module: gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__fleet_vehicle__status__checkout
+msgid "Check-Out"
+msgstr "الدفع"
+
+#. module: gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__sale_order__status__checkout_pending
+msgid "Check-Out Pending"
+msgstr "تسجيل الخروج معلق"
+
+#. module: gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__sale_order__status__checkin
+msgid "Checked-In"
+msgstr "تم تسجيل الوصول"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__checkout
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__sale_order__status__checkout
+msgid "Checked-Out"
+msgstr "فحصت"
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,name:gts_car_rental.action_menu_checkin model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__checkin
+msgid "Checkin"
+msgstr "تصفيه"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__document
+msgid "Checklist"
+msgstr "قائمة تدقيق"
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,name:gts_car_rental.action_attachment_wizard
+msgid "Checklist Attachment"
+msgstr "مرفق قائمة التحقق"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__checkout
+msgid "Checkout"
+msgstr "الدفع"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__actual_date
+msgid "Cheked-in/Checked-out Date"
+msgstr "تاريخ تسجيل الدخول / تسجيل المغادرة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__state
+msgid "Choose whether the contract is still valid or not"
+msgstr "اختيار ما إن كان العقد لا يزال صالحًا أم لا"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_service_type__category
+msgid "Choose whether the service refer to contracts, vehicle services or both"
+msgstr "اختيار ما إن كانت الخدمة تشير لعقود أم لخدمات المركبة أم لكليهما"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__ar_city model:ir.model.fields,field_description:ar_name.field_res_company__ar_city
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__ar_city model:ir.model.fields,field_description:ar_name.field_res_users__ar_city
+msgid "City (Arabic)"
+msgstr "المدينة (عربي)"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.due_amount_cost
+msgid "Close"
+msgstr "يغلق"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Close Contract"
+msgstr "إغلاق العقد"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__state__closed
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__color
+msgid "Color"
+msgstr "اللون"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__color
+msgid "Color Index"
+msgstr "معرف اللون"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__color
+msgid "Color of the vehicle"
+msgstr "لون المركبة"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_res_company
+msgid "Companies"
+msgstr "شركات"
+
+#. modules: fleet, sale_management, gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__company_id
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__company_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__company_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__company_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__company_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__company_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__company_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__company_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__company_currency_id
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__company_currency_id
+msgid "Company Currency"
+msgstr "عملة الشركة"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__ar_name model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic
+msgid "Company Name (Arabic)"
+msgstr "اسم الشركة (عربي)"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_res_config_settings
+msgid "Config Settings"
+msgstr "ضبط الاعدادات"
+
+#. module: fleet
+#: model:ir.ui.menu,name:fleet.fleet_configuration
+msgid "Configuration"
+msgstr "إعدادات التكوين"
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: gts_car_rental
+#: model:ir.ui.menu,name:gts_car_rental.menu_confirm
+msgid "Confirm Booking"
+msgstr "تأكيد الحجز"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Confirmation"
+msgstr "تأكيد"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__mail_template_id
+msgid "Confirmation Mail"
+msgstr "رسالة التأكيد"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_partner_form_arabic
+msgid "Contact Name (Arabic)"
+msgstr "اسم جهة الاتصال (عربي)"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_service_type__category__contract
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_cost_report__cost_type__contract
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Contract"
+msgstr "العقد"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_graph
+msgid "Contract Costs Per Month"
+msgstr "تكاليف العقد الشهرية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_count
+msgid "Contract Count"
+msgstr "عدد العقود"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__expiration_date
+msgid "Contract Expiration Date"
+msgstr "تاريخ انتهاء العقد"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Contract Information"
+msgstr "معلومات العقد"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__start_date
+msgid "Contract Start Date"
+msgstr "تاريخ بدء العقد"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_tree
+msgid "Contract logs"
+msgstr "سجلات العقد"
+
+#. module: fleet
+#: model:mail.activity.type,name:fleet.mail_act_fleet_contract_to_renew
+msgid "Contract to Renew"
+msgstr "العقود المراد تجديدها"
+
+#. modules: fleet, gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.fleet_vehicle_view_kanban_gts_car_rental model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
+msgid "Contract(s)"
+msgstr "العقود"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_contract_action model:ir.model.fields,field_description:fleet.field_fleet_vehicle__log_contracts
+#: model:ir.ui.menu,name:fleet.fleet_vehicle_log_contract_menu model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Contracts"
+msgstr "العقود"
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_option__product_uom_category_id
+#: model:ir.model.fields,help:sale_management.field_sale_order_template_line__product_uom_category_id
+#: model:ir.model.fields,help:sale_management.field_sale_order_template_option__product_uom_category_id
+msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+msgstr "لا يمكن التحويل بين وحدات القياس إلا إذا كانت تنتمي لنفس الفئة. سيتم إجراء التحويل بناءً على النسب."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__cost
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__amount
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__amount
+msgid "Cost"
+msgstr "التكلفة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__cost_type
+msgid "Cost Type"
+msgstr "نوع التكلفة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Cost that is paid only once at the creation of the contract"
+msgstr "تكلفة تدفع مرة واحدة فقط عند إنشاء العقد"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__cost_subtype_id
+msgid "Cost type purchased with this cost"
+msgstr "نوع التكلفة المسددة بهذه القيمة"
+
+#. module: fleet
+#: model:ir.ui.menu,name:fleet.menu_fleet_reporting_costs
+msgid "Costs"
+msgstr "التكاليف"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_costs_reporting_action
+msgid "Costs Analysis"
+msgstr "تحليل التكاليف"
+
+#. modules: ar_name, gts_car_rental
+#: model:ir.model,name:ar_name.model_res_country model:ir.model.fields,field_description:gts_car_rental.field_res_partner__country_id
+#: model:ir.model.fields,field_description:gts_car_rental.field_res_users__country_id
+msgid "Country"
+msgstr "الدولة"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic model_terms:ir.ui.view,arch_db:ar_name.view_partner_form_arabic
+msgid "Country (Arabic)"
+msgstr "الدولة (العربية)"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_country_form_arabic
+msgid "Country Name (Arabic)"
+msgstr "اسم الدولة (عربي)"
+
+#. module: ar_name
+#: model:ir.model,name:ar_name.model_res_country_state
+msgid "Country state"
+msgstr "الولاية أو المحافظة"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_advance_payment_register_form
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_deposit_payment_register_form
+msgid "Create Payment"
+msgstr "إنشاء الدفع"
+
+#. module: gts_car_rental
+#: model_terms:ir.actions.act_window,help:gts_car_rental.action_Quotation_menu model_terms:ir.actions.act_window,help:gts_car_rental.action_all_booking
+#: model_terms:ir.actions.act_window,help:gts_car_rental.action_confirm_menu model_terms:ir.actions.act_window,help:gts_car_rental.action_menu_checkin
+#: model_terms:ir.actions.act_window,help:gts_car_rental.action_menu_checkout model_terms:ir.actions.act_window,help:gts_car_rental.action_this_month
+#: model_terms:ir.actions.act_window,help:gts_car_rental.action_this_week
+msgid "Create a contact in your address book"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
+msgid "Create a new contract"
+msgstr "إنشاء عقد جديد"
+
+#. module: sale_crm
+#: model:ir.model.fields.selection,name:sale_crm.selection__crm_quotation_partner__action__create
+msgid "Create a new customer"
+msgstr "إنشاء عميل جديد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_brand_action
+msgid "Create a new manufacturer"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_action
+msgid "Create a new model"
+msgstr "إنشاء موديل جديد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_odometer_action
+msgid "Create a new odometer log"
+msgstr "إنشاء سجل عداد مسافات جديد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
+msgid "Create a new service entry"
+msgstr "إنشاء قيد خدمة جديد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_action
+msgid "Create a new type of service"
+msgstr "إنشاء نوع خدمة جديد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_state_action
+msgid "Create a new vehicle status"
+msgstr "إنشاء حالة مركبات جديدة"
+
+#. module: sale_crm
+#: model:ir.model,name:sale_crm.model_crm_quotation_partner
+msgid "Create new or use existing Customer on new Quotation"
+msgstr ""
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
+msgid "Create standardized offers with default products"
+msgstr "إنشاء عروض قياسية بالمنتجات الافتراضية"
+
+#. module: sale_management
+#: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
+msgid "Create your quotation template"
+msgstr "إنشاء قالب عرض السعر"
+
+#. modules: fleet, sale_crm, sale_management, gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__create_uid
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__create_uid
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__create_uid
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__create_uid
+#: model:ir.model.fields,field_description:gts_car_rental.field_tamm_authorization__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__create_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__create_uid
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__create_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__create_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__create_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. modules: fleet, sale_crm, sale_management, gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__create_date
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__create_date
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__create_date
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__create_date
+#: model:ir.model.fields,field_description:gts_car_rental.field_tamm_authorization__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__create_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__create_date
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__create_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__create_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__create_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__currency_id
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__currency_id
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__company_currency
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__currency_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__currency_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__purchaser_id model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Current Driver"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__state_id
+msgid "Current state of the vehicle"
+msgstr "الحالة الحالية للسيارة"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__custom_footer
+msgid "Custom Footer"
+msgstr ""
+
+#. modules: sale_crm, gts_car_rental
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__partner_id
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__account_advance_payment__partner_type__customer
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__account_deposit_payment__partner_type__customer
+msgid "Customer"
+msgstr "العميل"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__partner_id
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__partner_id
+msgid "Customer/Vendor"
+msgstr ""
+
+#. modules: fleet, gts_car_rental
+#: model:ir.model.fields.selection,name:gts_car_rental.selection__sale_order__booking_type__daily
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__daily
+msgid "Daily"
+msgstr "اليومي"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_product__allowed_odometer
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__allowed_odometer
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__allowed_odometer
+msgid "Daily Allowed KM"
+msgstr "KM المسموح به يوميًا"
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,name:gts_car_rental.gts_car_rental_fleet_vehicle_action
+#: model:ir.actions.act_window,name:gts_car_rental.gts_car_rental_fleet_vehicle_action_calendar model:ir.ui.menu,name:gts_car_rental.menu_dashboard
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+#. modules: fleet, gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__date_start
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__date
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__date model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__date
+msgid "Date when the cost has been executed"
+msgstr "تاريخ تسديد التكلفة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__start_date
+msgid "Date when the coverage of the contract begins"
+msgstr "تاريخ بداية صلاحية العقد"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__expiration_date
+msgid "Date when the coverage of the contract expirates (by default, one year after begin date)"
+msgstr "تاريخ انتهاء صلاحية العقد (افتراضيًا، يكون بعد عام واحد من تاريخ بدايته)"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__acquisition_date
+msgid "Date when the vehicle has been immatriculated"
+msgstr "تاريخ توثيق السيارة"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic
+msgid "Deafult Account"
+msgstr ""
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__default_account_id
+msgid "Default Account"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_res_company__sale_order_template_id
+msgid "Default Sale Template"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_res_company__default_amount
+msgid "Default Security Deposit Amount"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__company_so_template_id
+msgid "Default Template"
+msgstr "القالب الافتراضي"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_res_config_settings__delay_alert_contract
+msgid "Delay alert contract outdated"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model,name:gts_car_rental.model_account_deposit_payment model_terms:ir.ui.view,arch_db:gts_car_rental.view_account_deposit_payment_register_form
+msgid "Deposit Payment"
+msgstr "دفع الإيداع"
+
+#. modules: fleet, sale_management
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__description
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__name model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+#: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Description"
+msgstr "الوصف"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
+msgid ""
+"Design your quotation templates using building blocks<br/>\n"
+"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">Warning: this option will install the Website app.</em>"
+msgstr ""
+"تصميم قوالب عروض أسعارك باستخدام بلوكات البناء<br/>\n"
+"                            <em attrs=\"{'invisible': [('module_sale_quotation_builder','=',False)]}\">تحذير: هذا الخيار سيثبت تطبيق الموقع.</em>"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__diesel
+msgid "Diesel"
+msgstr "ديزل"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_digest_digest
+msgid "Digest"
+msgstr "الملخص"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Disc.%"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__discount
+msgid "Discount (%)"
+msgstr "الخصم (%)"
+
+#. modules: fleet, sale_management, gts_car_rental, sale_crm, ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__display_name model:ir.model.fields,field_description:ar_name.field_res_country__display_name
+#: model:ir.model.fields,field_description:ar_name.field_res_country_state__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__display_name
+#: model:ir.model.fields,field_description:gts_car_rental.field_tamm_authorization__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__display_name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__display_name
+#: model:ir.model.fields,field_description:fleet.field_res_partner__display_name model:ir.model.fields,field_description:sale_crm.field_crm_lead__display_name
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__display_name
+#: model:ir.model.fields,field_description:sale_crm.field_crm_team__display_name model:ir.model.fields,field_description:sale_crm.field_res_users__display_name
+#: model:ir.model.fields,field_description:sale_management.field_digest_digest__display_name
+#: model:ir.model.fields,field_description:sale_management.field_res_company__display_name
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__display_name
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__display_type
+msgid "Display Type"
+msgstr "نوع العرض"
+
+#. module: sale_management
+#: code:addons/sale_management/models/digest.py:0
+#, python-format
+msgid "Do not have access, skip this data for user's digest email"
+msgstr ""
+
+#. module: sale_crm
+#: model:ir.model.fields.selection,name:sale_crm.selection__crm_quotation_partner__action__nothing
+msgid "Do not link to a customer"
+msgstr "لا تربط بعميل"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__doc_attachment_id
+msgid "Document"
+msgstr "وثيقة"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
+msgid "Documentation"
+msgstr "التوثيق"
+
+#. modules: fleet, gts_car_rental
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__done
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.tamm_autho_wizard_view
+msgid "Done"
+msgstr "منجز"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__doors
+msgid "Doors Number"
+msgstr "عدد الأبواب"
+
+#. module: fleet
+#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_downgraded
+msgid "Downgraded"
+msgstr "تخفيض"
+
+#. modules: fleet, gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__driver_id model:ir.model.fields,field_description:fleet.field_fleet_vehicle__driver_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__driver_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__driver_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__purchaser_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__driver_id model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Driver"
+msgstr "سائق"
+
+#. module: gts_car_rental
+#: model_terms:ir.ui.view,arch_db:gts_car_rental.report_saleorder_document_inherit_sale_management_new
+msgid "Driver Name"
+msgstr "اسم السائق"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__driver_id model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__purchaser_id
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer__driver_id
+msgid "Driver of the vehicle"
+msgstr "سائق المركبة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Drivers"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Drivers History"
+msgstr "سجل السائق"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__history_count
+msgid "Drivers History Count"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_assignation_log
+msgid "Drivers history on a vehicle"
+msgstr "سجل السائق على مركبة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_res_partner__driver_expiry
+#: model:ir.model.fields,field_description:gts_car_rental.field_res_users__driver_expiry
+msgid "Driving License Expiry Date"
+msgstr "تاريخ انتهاء رخصة القيادة"
+
+#. module: gts_car_rental
+#: code:addons/gts_car_rental/models/res_partner.py:0
+#, python-format
+msgid "Driving License Expiry Date cannot be Less than Today's date "
+msgstr "لا يمكن أن يكون تاريخ انتهاء صلاحية رخصة القيادة أقل من تاريخ اليوم"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__driving_number
+msgid "Driving License No"
+msgstr "رقم رخصة القيادة"
+
+#. module: gts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_amount_due_wizard
+msgid "Due Calculation"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
+msgid ""
+"Each contract (e.g.: leasing) may include several services\n"
+"            (reparation, insurances, periodic maintenance)."
+msgstr ""
+"قد يتضمن كل عقد (مثلًا: عقد إيجار) عدة خدمات\n"
+"            (إصلاحات، تأمين، صيانة دورية)."
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_action
+msgid "Each service can used in contracts, as a standalone service or both."
+msgstr "يمكن استخدام كل خدمة في العقود، أو كخدمة مستقلة، أو كليهما."
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__electric
+msgid "Electric"
+msgstr "كهربائي"
+
+#. module: fleet
+#: code:addons/fleet/models/fleet_vehicle_cost.py:0
+#, python-format
+msgid "Emptying the odometer value of a vehicle is not allowed."
+msgstr "غير مسموح بتصفير قيمة عداد المسافات."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__date_end
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Engine"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__checkin
+msgid "Expected Checked-In"
+msgstr "تم تسجيل الوصول المتوقع"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__actual_date
+msgid "Expected Return Date"
+msgstr "تاريخ العودة المتوقع"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__state__expired
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__expected_distance
+msgid "Exptd Distance"
+msgstr "المسافة المتوقعة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__expected_hours
+msgid "Exptd Service Hours"
+msgstr "ساعات الخدمة المتوقعة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__chargable_extra_hours
+msgid "Ext. Billable Hours"
+msgstr "ساعات إضافية قابلة للفوترة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__chargable_odometer_reading
+msgid "Ext. Billable Odometer"
+msgstr "عداد المسافات الإضافي القابل للفوترة"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__extra_odometer_charges
+msgid "Ext. Odometer Charges"
+msgstr "رسوم العداد الإضافي"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__extra_hour_charges
+msgid "Ext. hour Charges"
+msgstr "رسوم الساعات الإضافية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,help:gts_car_rental.field_product_product__extra_odometer_charges
+#: model:ir.model.fields,help:gts_car_rental.field_product_template__extra_odometer_charges
+msgid "Extra Chageres for the Car after Allowed Odometer Rating"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,help:gts_car_rental.field_product_product__extra_hour_charges
+#: model:ir.model.fields,help:gts_car_rental.field_product_template__extra_hour_charges
+msgid "Extra Chageres for the Car after Booked Duration"
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,help:gts_car_rental.field_product_product__extra_daily_charges
+#: model:ir.model.fields,help:gts_car_rental.field_product_template__extra_daily_charges model:ir.model.fields,help:gts_car_rental.field_sale_order__extra_daily_charges
+msgid "Extra Chageres for the Car after Booked Duration."
+msgstr ""
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_product__extra_daily_charges
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__extra_daily_charges
+#: model:ir.model.fields,field_description:gts_car_rental.field_sale_order__extra_daily_charges
+msgid "Extra Daily Chageres"
+msgstr "تشاجرات يومية إضافية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__day_cost
+msgid "Extra Day Price"
+msgstr "سعر اليوم الإضافي"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_product__extra_hour_charges
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__extra_hour_charges
+msgid "Extra Hour Charges"
+msgstr "رسوم الساعات الإضافية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_due_amount__hour_cost
+msgid "Extra Hour Price"
+msgstr "سعر الساعة الإضافية"
+
+#. module: gts_car_rental
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_product__extra_odometer_charges
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__extra_odometer_charges
+msgid "Extra Odometer Charges"
+msgstr "رسوم العداد الإضافي"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__odometer_price
+msgid "Extra Odometer Price"
+msgstr "سعر العداد الإضافي"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__facebook
+msgid "Facebook"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__first_contract_date
+msgid "First Contract Date"
+msgstr "تاريخ أول عقد"
+
+#. module: fleet
+#: model:ir.module.category,name:fleet.module_fleet_category model:ir.ui.menu,name:fleet.menu_root
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "Fleet"
+msgstr "الأسطول"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_cost_report
+msgid "Fleet Analysis Report"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_graph model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search
+msgid "Fleet Costs Analysis"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.res_config_settings_view_form
+msgid "Fleet Management"
+msgstr "إدارة الأسطول"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__manager_id
+msgid "Fleet Manager"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle_odometer__odometer_id
+msgid "Fleet Odometer"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_service_type
+msgid "Fleet Service Type"
+msgstr "نوع خدمة الأسطول"
+
+#. module: fleet
+#: model:ir.actions.server,name:fleet.ir_cron_contract_costs_generator_ir_actions_server model:ir.cron,cron_name:fleet.ir_cron_contract_costs_generator
+#: model:ir.cron,name:fleet.ir_cron_contract_costs_generator
+msgid "Fleet: Generate contracts costs based on costs frequency"
+msgstr "الأسطول: إنشاء تكاليف العقود حسب معدل سداد التكاليف"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_follower_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_follower_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_channel_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_channel_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "المتابعون (القنوات)"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_partner_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_partner_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__activity_type_icon
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__activity_type_icon
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_non_accountable_fields_null
+msgid "Forbidden product, unit price, quantity, and UoM on non-accountable sale quote line"
+msgstr "المنتج أو سعر الوحدة أو الكمية أو وحدة القياس محظور في بند غير مقبول."
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__cost_frequency
+msgid "Frequency of the recuring cost"
+msgstr "معدل التكلفة المتكررة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__fuel_type
+msgid "Fuel"
+msgstr "الوقود"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__fuel_type
+msgid "Fuel Type"
+msgstr "نوع الوقود"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__fuel_type
+msgid "Fuel Used by the vehicle"
+msgstr "الوقود المستخدم في المركبة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Future Activities"
+msgstr "الأنشطة المستقبلية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__future_driver_id
+msgid "Future Driver"
+msgstr "سائق المستقبل"
+
+#. modules: flegts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.fleet_vehicle_view_kangts_car_rental model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
+msgid "Future Driver :"
+msgstr "سائق المستقبل"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__gasoline
+msgid "Gasoline"
+msgstr "بنزين"
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_option__sequence
+msgid "Gives the sequence order when displaying a list of optional products."
+msgstr "يعرض ترتيب التسلسل عند عرض قائمة المنتجات الاختيارية."
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template_line__sequence
+msgid "Gives the sequence order when displaying a list of sale quote lines."
+msgstr "يعرض ترتيب التسلسل عند عرض قائمة بنود عروض أسعار المبيعات."
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_overdue
+msgid "Has Contracts Overdue"
+msgstr "لديه عقود متأخرة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_due_soon
+msgid "Has Contracts to renew"
+msgstr "لديه عقود مطلوب تجديدها"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__horsepower
+msgid "Horsepower"
+msgstr "قوة حصان"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__horsepower_tax
+msgid "Horsepower Taxation"
+msgstr "الضريبة على قوة الحصان"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__hybrid
+msgid "Hybrid"
+msgstr "هجين"
+
+#. modules: fleet, sale_management, gts_car_rental, sale_crm, ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__id model:ir.model.fields,field_description:ar_name.field_res_country__id
+#: model:ir.model.fields,field_description:ar_name.field_res_country_state__id
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_advance_payment__id
+#: model:ir.model.fields,field_description:gts_car_rental.field_account_deposit_payment__id
+#: model:ir.model.fields,field_description:gts_car_rental.field_document_attachment__id model:ir.model.fields,field_description:gts_car_rental.field_due_amount__id
+#: model:ir.model.fields,field_description:gts_car_rental.field_product_template__id model:ir.model.fields,field_description:gts_car_rental.field_tamm_authorization__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__id model:ir.model.fields,field_description:fleet.field_fleet_vehicle__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__id model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__id model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__id model:ir.model.fields,field_description:fleet.field_res_partner__id
+#: model:ir.model.fields,field_description:sale_crm.field_crm_lead__id model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__id
+#: model:ir.model.fields,field_description:sale_crm.field_crm_team__id model:ir.model.fields,field_description:sale_crm.field_res_users__id
+#: model:ir.model.fields,field_description:sale_management.field_digest_digest__id model:ir.model.fields,field_description:sale_management.field_res_company__id
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_line__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_partner__iqama_no model:ir.model.fields,field_descriptgts_car_rental.field_res_users__iqama_no
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__iqama_id
+msgid "IQAMA/ID No"
+msgstr "IQAMA/ID رقم"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_partner__iqama_expiry
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_users__iqama_expiry
+msgid "IQAMA/Id Expiry Date"
+msgstr "IQAMA/Id تاريخ انتهاء الصلاحية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_exception_icon
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_exception_icon
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_exception_icon
+msgid "Icon"
+msgstr "الأيقونة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__activity_exception_icon
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__activity_exception_icon
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "الأيقونة للإشارة إلى استثناء النشاط"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_needaction model:ir.model.fields,help:fleet.field_fleet_vehicle__message_unread
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_needaction
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_unread
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_needaction
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "إذا كان محددًا، فهناك رسائل جديدة تحتاج لرؤيتها."
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_has_error model:ir.model.fields,help:fleet.field_fleet_vehicle__message_has_sms_error
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_has_error
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_has_sms_error
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_has_error
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا كان محددًا، فقد حدث خطأ في تسليم بعض الرسائل."
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template__active
+msgid "If unchecked, it will allow you to hide the quotation template without removing it."
+msgstr "عند إلغاء اختياره، يمكنك إخفاء قالب عرض السعر دون حذفه."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__acquisition_date
+msgid "Immatriculation Date"
+msgstr "تاريخ التوثيق"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__state__open
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+msgid "In Progress"
+msgstr "قيد التنفيذ"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__service_ids
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Included Services"
+msgstr "الخدمات المشمولة"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__state__futur
+msgid "Incoming"
+msgstr "الوارد"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__instagram
+msgid "Instagram"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Invoice Date"
+msgstr "تاريخ الفاتورة"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_res_users__target_sales_invoiced
+msgid "Invoiced in Sales Orders Target"
+msgstr "الفواتير ضمن المبيعات المستهدفة"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_product_product_gts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_product_template_gts_car_rental
+msgid "Is Car Rental"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_is_follower
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_is_follower
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_is_follower
+msgid "Is Follower"
+msgstr "متابع"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_partner__is_vendor model:ir.model.fields,field_descriptgts_car_rental.field_res_users__is_vendor
+#: model_terms:ir.ui.view,archgts_car_rental.contact_inherit_form1
+msgid "Is Vendor?"
+msgstr "هل البائع؟"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__journal_id
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__journal_id
+msgid "Journal"
+msgstr "مجلة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_kanban
+msgid "Km"
+msgstr "كم"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_digest_digest__kpi_all_sale_total_value
+msgid "Kpi All Sale Total Value"
+msgstr "القيمة الإجمالية للمؤشر الرئيسي لكافة المبيعات"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__fuel_type__lpg
+msgid "LPG"
+msgstr ""
+
+#. modules: fleet, sale_managemegts_car_rental, sale_crm, ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank____last_update
+#: model:ir.model.fields,field_description:ar_name.field_res_country____last_update
+#: model:ir.model.fields,field_description:ar_name.field_res_country_state____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_product_template____last_update
+#: model:ir.model.fields,field_descriptgts_car_rental.field_tamm_authorization____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state____last_update
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag____last_update
+#: model:ir.model.fields,field_description:fleet.field_res_partner____last_update model:ir.model.fields,field_description:sale_crm.field_crm_lead____last_update
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner____last_update
+#: model:ir.model.fields,field_description:sale_crm.field_crm_team____last_update
+#: model:ir.model.fields,field_description:sale_crm.field_res_users____last_update
+#: model:ir.model.fields,field_description:sale_management.field_digest_digest____last_update
+#: model:ir.model.fields,field_description:sale_management.field_res_company____last_update
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line____last_update
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__odometer
+msgid "Last Odometer"
+msgstr "آخر قيمة لعداد المسافات"
+
+#. modules: fleet, sale_crm, sale_managemegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__write_uid
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__write_uid
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment__write_uid
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__write_uid
+#: model:ir.model.fields,field_descriptgts_car_rental.field_tamm_authorization__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__write_uid
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__write_uid
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__write_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__write_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__write_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__write_uid
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. modules: fleet, sale_crm, sale_managemegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__write_date
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__write_date
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment__write_date
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__write_date
+#: model:ir.model.fields,field_descriptgts_car_rental.field_tamm_authorization__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__write_date
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__write_date
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__write_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__write_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__write_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__write_date
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Late Activities"
+msgstr "الأنشطة المتأخرة"
+
+#. module: sale_crm
+#: model:ir.model,name:sale_crm.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "ترشيح/فرصة"
+
+#. modugts_car_rental
+#: model_terms:ir.actions.act_window,hcar_rengts_car_rental_fleet_vehicle_action_calendar
+msgid "Let's create your first Sale Order."
+msgstr ""
+
+#. modules: flegts_car_rental
+#: model_terms:ir.actions.act_window,hcar_rengts_car_rental_fleet_vehicle_action model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
+msgid "Let's create your first vehicle."
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__license_plate
+msgid "License Plate"
+msgstr "رقم اللوحة"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__ar_license_plate
+msgid "License Plate (Arabic)"
+msgstr "لوحة ترخيص (عربي)"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__license_plate
+msgid "License plate number of the vehicle (i = plate number for a car)"
+msgstr "رقم لوحة المركبة (س = رقم لوحة لسيارة)"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__line_id
+msgid "Line"
+msgstr "بند"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__sale_order_template_line_ids
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Lines"
+msgstr "البنود"
+
+#. module: sale_crm
+#: model:ir.model.fields.selection,name:sale_crm.selection__crm_quotation_partner__action__exist
+msgid "Link to an existing customer"
+msgstr "ربط بعميل مسجل"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__linkedin
+msgid "Linkedin"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__location
+msgid "Location"
+msgstr "المكان"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__location
+msgid "Location of the vehicle (garage, ...)"
+msgstr "موقع السيارة (المرآب، ...)"
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
+msgid "Log in the chatter from which opportunity the order originates"
+msgstr "سجل المحادثات من فرصة البيع التي صدر عنها أمر البيع"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__image_128
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__image_128
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__image_128
+msgid "Logo"
+msgstr "الشعار"
+
+#. modugts_car_rental
+#: model:ir.ui.menu,ngts_car_rental.menu_mis
+msgid "MIS"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
+msgid "MODELS"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_main_attachment_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_main_attachment_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__name model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+msgid "Make"
+msgstr "العلامة التجارية"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
+msgid ""
+"Manage all your contracts (leasing, insurances, etc.) with\n"
+"            their related services, costs. Odoo will automatically warn\n"
+"            you when some contracts have to be renewed."
+msgstr ""
+"إدارة جميع عقودك (عقود التأجير، عقود التأمين، إلخ) من خلال\n"
+"            الخدمات والتكاليف المقترنة بهم. ستقوم أودو بتنبيهك تلقائيًا\n"
+"            عند الحاجة لتجديد بعض العقود."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__manager_id
+msgid "Manager"
+msgstr "المدير"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__transmission__manual
+msgid "Manual"
+msgstr "يدوي"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__brand_id
+msgid "Manufacturer"
+msgstr "مصنّع"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__brand_id model:ir.model.fields,help:fleet.field_fleet_vehicle_model__brand_id
+msgid "Manufacturer of the vehicle"
+msgstr ""
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_brand_action model:ir.ui.menu,name:fleet.fleet_vehicle_model_brand_menu
+msgid "Manufacturers"
+msgstr ""
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__map_link
+msgid "Map Link"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__communication
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__communication
+msgid "Memo"
+msgstr "مذكرة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_has_error
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_has_error
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسائل"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: sale_management
+#: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_accountable_product_id_required
+msgid "Missing required product and UoM on accountable sale quote line."
+msgstr "المنتج ووحدة القياس فارغين في بند أمر بيع سيتم إنشاء فاتورة له."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__model_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__model_ids model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Model"
+msgstr "الكائن"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model_brand__model_count
+msgid "Model Count"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_tree
+msgid "Model Make"
+msgstr "العلامة التجارية للموديل"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__model_year
+msgid "Model Year"
+msgstr "عام الموديل"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__name
+msgid "Model name"
+msgstr "اسم الموديل"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_model
+msgid "Model of a vehicle"
+msgstr "موديل مركبة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__model_id
+msgid "Model of the vehicle"
+msgstr "موديل المركبة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_kanban model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_tree
+msgid "Models"
+msgstr "كائنات"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields.selection,ngts_car_rental.selection__sale_order__booking_type__monthly
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__monthly
+msgid "Monthly"
+msgstr "شهريا"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__my_activity_date_deadline
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__my_activity_date_deadline
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: sale_crm
+#: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
+msgid "My Quotations"
+msgstr "عروض أسعاري"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_service_type__name model:ir.model.fields,field_description:fleet.field_fleet_vehicle__name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__name
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_country__ar_name model:ir.model.fields,field_description:ar_name.field_res_country_state__ar_name
+msgid "Name (Arabic)"
+msgstr "الاسم (عربي)"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_name
+msgid "Name of contract to renew soon"
+msgstr "اسم العقد المراد تجديده قريبًا"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_partner__nationality
+#: model:ir.model.fields,field_descriptgts_car_rental.field_res_users__nationality
+msgid "Nationality"
+msgstr "جنسية"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Need Action"
+msgstr "بحاجة لإجراء"
+
+#. module: sale_crm
+#: model:ir.actions.act_window,name:sale_crm.crm_quotation_partner_action model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
+msgid "New Quotation"
+msgstr "عرض سعر جديد"
+
+#. module: fleet
+#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_new_request
+msgid "New Request"
+msgstr "طلب جديد"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_date_deadline
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_date_deadline
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط التالي"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_summary
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_summary
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_type_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_type_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__future_driver_id
+msgid "Next Driver of the vehicle"
+msgstr "السائق التالي للمركبة"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__no
+msgid "No"
+msgstr "لا"
+
+#. modugts_car_rental
+#: model_terms:ir.actions.act_window,hgts_car_rental.action_outstanding_revenue
+msgid "No Data Found !!."
+msgstr ""
+
+#. module: fleet
+#: code:addons/fleet/models/fleet_vehicle.py:0
+#, python-format
+msgid "No Plate"
+msgstr "لا توجد لوحة"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
+msgid "No data for analysis"
+msgstr "لا توجد بيانات للتحليل"
+
+#. module: fleet
+#: code:addons/fleet/models/fleet_vehicle.py:0
+#, python-format
+msgid "No plate"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields.selection,name:sale_management.selection__sale_order_template_line__display_type__line_note
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Note"
+msgstr "الملاحظات"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__notes
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
+msgid "Notes"
+msgstr "الملاحظات"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Number"
+msgstr "رقم"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_needaction_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_needaction_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__service_day
+msgid "Number of Days"
+msgstr "عدد الأيام"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_crm_lead__quotation_count
+msgid "Number of Quotations"
+msgstr "عدد عروض الأسعار"
+
+#. modules: sale_cgts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__sale_order_count
+#: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_order_count
+msgid "Number of Sale Orders"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template__number_of_days
+msgid "Number of days for the validity date computation of the quotation"
+msgstr "عدد أيام احتساب تاريخ الصلاحية لعرض الأسعار"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__doors
+msgid "Number of doors of the vehicle"
+msgstr "عدد أبواب المركبة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_has_error_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_has_error_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الاخطاء"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_needaction_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_needaction_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_has_error_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_has_error_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل الحادث بها خطأ في التسليم"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__seats
+msgid "Number of seats of the vehicle"
+msgstr "عدد مقاعد المركبة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__message_unread_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__message_unread_counter
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل الجديدة"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__odometer_count
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__odometer_id
+#: model_terms:ir.ui.view,archgts_car_rental.report_saleorder_document_inherit_sale_management_new model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Odometer"
+msgstr "عداد المسافات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_tree
+msgid "Odometer Logs"
+msgstr "سجلات عداد المسافات"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment__odometer_reading
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__odometer
+msgid "Odometer Reading"
+msgstr "قراءة عداد المسافات"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__odometer_unit
+msgid "Odometer Unit"
+msgstr "وحدة عداد المسافات"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__value
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__odometer
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__value
+msgid "Odometer Value"
+msgstr "قيمة عداد المسافات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_graph
+msgid "Odometer Values Per Vehicle"
+msgstr "قيم عداد المسافات لكل مركبة"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__service_odometer
+msgid "Odometer for Next Service"
+msgstr "عداد المسافات للخدمة التالية"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_odometer
+msgid "Odometer log for a vehicle"
+msgstr "سجل عداد المسافات لمركبة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__odometer model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__odometer
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__odometer_id
+msgid "Odometer measure of the vehicle at the moment of this log"
+msgstr "قيمة عداد مسافات المركبة عند إنشاء هذا السجل"
+
+#. modules: flegts_car_rental
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_odometer_action model:ir.ui.menu,name:fleet.fleet_vehicle_odometer_menu
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_form_inherit
+msgid "Odometers"
+msgstr "عداد المسافات"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
+msgid ""
+"Odoo helps you managing the costs for your different vehicles\n"
+"          Costs are generally created from services and contract and appears here."
+msgstr ""
+"تساعدك أودو على إدارة تكاليف مركباتك المختلفة\n"
+"          يتم إنشاء التكاليف عامةً من الخدمات والعقود، وتظهر هنا."
+
+#. modugts_car_rental
+#: model_terms:ir.actions.act_window,hgts_car_rental.action_Quotation_menu model_terms:ir.actions.act_window,hgts_car_rental.action_all_booking
+#: model_terms:ir.actions.act_window,hgts_car_rental.action_confirm_menu model_terms:ir.actions.act_window,hgts_car_rental.action_menu_checkin
+#: model_terms:ir.actions.act_window,hgts_car_rental.action_menu_checkout model_terms:ir.actions.act_window,hgts_car_rental.action_this_month
+#: model_terms:ir.actions.act_window,hgts_car_rental.action_this_week
+msgid "Odoo helps you to easily track all activities related to a customer."
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__require_payment
+msgid "Online Payment"
+msgstr "السداد عبر الإنترنت"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__require_signature
+msgid "Online Signature"
+msgstr "التوقيع الإلكتروني"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_brand_view_kanban
+msgid "Open"
+msgstr "فتح"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_sale_order__opportunity_id
+msgid "Opportunity"
+msgstr "فرصة"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__sale_order_template_option_ids
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Optional Products"
+msgstr "منتجات اختيارية"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order__sale_order_option_ids
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_line__sale_order_option_ids
+msgid "Optional Products Lines"
+msgstr "بنود المنتجات الاختيارية"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Options"
+msgstr "خيارات"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#. modules: sale_cgts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__order_ids model:ir.model.fields,field_description:sale_crm.field_crm_lead__order_ids
+msgid "Orders"
+msgstr "أوامر"
+
+#. modugts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_outstanding_revenue model:ir.ui.menu,ngts_car_rental.menu_outstanding_revenue
+msgid "Outstanding Revenue"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__partner_type
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__partner_type
+msgid "Partner Type"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__payment_date
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__payment_date
+msgid "Payment Date"
+msgstr "تاريخ الدفع"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__payment_type
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__payment_type
+msgid "Payment Type"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__plan_to_change_car
+#: model:ir.model.fields,field_description:fleet.field_res_partner__plan_to_change_car
+#: model:ir.model.fields,field_description:fleet.field_res_users__plan_to_change_car
+msgid "Plan To Change Car"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Planned for Change"
+msgstr ""
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.doc_attachment_wizard_view
+msgid "Please Attach Checklist!"
+msgstr "الرجاء إرفاق قائمة التحقق!"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Enter End Date !!!"
+msgstr "الرجاء إدخال تاريخ الانتهاء !!!"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Enter IQAMA/ID No Document"
+msgstr ""
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Enter Start Date"
+msgstr "الرجاء إدخال تاريخ البدء"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Enter Start Date !!!"
+msgstr "الرجاء تاريخ إدخال البدء"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Select Driver !!!"
+msgstr "الرجاء تحديد سائق !!!"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Select Vehicle !!!"
+msgstr "الرجاء تحديد السيارة !!!"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Please Take Full Security Deposit Amount"
+msgstr "يرجى أخذ مبلغ التأمين الكامل"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/wizard/document_attachment.py:0
+#, python-format
+msgid "Please enter Odometer reading"
+msgstr "الرجاء إدخال قراءة عداد المسافات"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__power
+msgid "Power"
+msgstr "طاقة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__power
+msgid "Power in kW of the vehicle"
+msgstr "قدرة المركبة بالكيلوواط"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__is_present
+msgid "Present on Quotation"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__product_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__product_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__product_id
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Product"
+msgstr "المنتج"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.product_normal_form_view_arabic model_terms:ir.ui.view,arch_db:ar_name.product_template_only_form_view_arabic
+msgid "Product Name (Arabic)"
+msgstr "اسم المنتج (عربي)"
+
+#. modugts_car_rental
+#: model:ir.model,ngts_car_rental.model_product_template
+msgid "Product Template"
+msgstr "قالب المنتج"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_product_template__is_product_variant
+msgid "Product Variant"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__net_car_value
+msgid "Purchase Value"
+msgstr "قيمة الشراء"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__net_car_value
+msgid "Purchase value of the vehicle"
+msgstr "قيمة شراء السيارة"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__quantity
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__product_uom_qty
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__quantity
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+msgid "Quantity:"
+msgstr "الكمية:"
+
+#. module: sale_crm
+#: model:ir.actions.act_window,name:sale_crm.sale_action_quotations_new
+msgid "Quotation"
+msgstr "عرض سعر"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__module_sale_quotation_builder
+msgid "Quotation Builder"
+msgstr "مكوّن عرض السعر"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__action
+msgid "Quotation Customer"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__number_of_days
+msgid "Quotation Duration"
+msgstr "مدة عرض السعر"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order_template
+#: model:ir.model.fields,field_description:sale_management.field_sale_order__sale_order_template_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__name
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_tree
+msgid "Quotation Template"
+msgstr "قالب عرض السعر"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order_template_line
+msgid "Quotation Template Line"
+msgstr "بند قالب عرض السعر"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Quotation Template Lines"
+msgstr "بنود قالب عرض السعر"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order_template_option
+msgid "Quotation Template Option"
+msgstr "خيار قالب عرض السعر"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__sale_order_template_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__sale_order_template_id
+msgid "Quotation Template Reference"
+msgstr "رقم إشارة قالب عرض السعر"
+
+#. module: sale_management
+#: model:ir.actions.act_window,name:sale_management.sale_order_template_action
+#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__group_sale_order_template
+#: model:ir.ui.menu,name:sale_management.sale_order_template_menu model:res.groups,name:sale_management.group_sale_order_template
+#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
+msgid "Quotation Templates"
+msgstr "قوالب عرض السعر"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Quotation expires after"
+msgstr "تنتهي صلاحية عرض السعر بعد"
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
+msgid "Quotations"
+msgstr "عروض الأسعار"
+
+#. modules: flegts_car_rental
+#: model_terms:ir.actions.act_window,hcar_rengts_car_rental_fleet_vehicle_action
+#: model_terms:ir.actions.act_window,hcar_rengts_car_rental_fleet_vehicle_action_calendar model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_action
+msgid "Ready to manage your fleet more efficiently ?"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_advance_payment__payment_type__inbound
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_deposit_payment__payment_type__inbound
+msgid "Receive Money"
+msgstr "إستلم نقود"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_form_inherit
+msgid "Receive Payment"
+msgstr "إستلام المبلغ"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__remaining_amount
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__remaining_amount
+msgid "Recievable Amount"
+msgstr "المبلغ القابل للاستلام"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_advance_payment__partner_bank_id
+#: model:ir.model.fields,field_descriptgts_car_rental.field_account_deposit_payment__partner_bank_id
+msgid "Recipient Bank Account"
+msgstr "حساب البنك المستلم"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_generated
+msgid "Recurring Cost"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_frequency
+msgid "Recurring Cost Frequency"
+msgstr "معدل التكلفة المتكررة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__ins_ref
+msgid "Reference"
+msgstr "رقم الإشارة"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_form_inherit
+msgid "Refresh Payment"
+msgstr ""
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_form_inherit
+msgid "Refund Payment"
+msgstr "دفع مبلغ معاد"
+
+#. modugts_car_rental
+#: code:addgts_car_rental/models/sale_order.py:0
+#, python-format
+msgid "Register Payment"
+msgstr "تسجيل الدفع"
+
+#. module: fleet
+#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_registered
+msgid "Registered"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__registration_no
+msgid "Registration no"
+msgstr "رقم التسجيل"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__ar_registration_no
+msgid "Registration no (Arabic)"
+msgstr "رقم التسجيل (عربي)"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_tree_inherit12
+msgid "Remaining Amount"
+msgstr "الكمية المتبقية"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Remove"
+msgstr "إزالة"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Remove one"
+msgstr "إزالة واحدة"
+
+#. modugts_car_rental
+#: model:ir.ui.menu,ngts_car_rental.submenu_calendar
+msgid "Rental Dashboard"
+msgstr "تأجير لوحة القيادة"
+
+#. module: fleet
+#: model:ir.ui.menu,name:fleet.menu_fleet_reporting
+msgid "Reporting"
+msgstr "التقارير"
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template__require_signature
+msgid "Request a online signature to the customer in order to confirm orders automatically."
+msgstr "طلب توقيع العميل إلكترونيًا لتأكيد الأوامر تلقائيًا."
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template__require_payment
+msgid "Request an online payment to the customer in order to confirm orders automatically."
+msgstr "طلب تسديد العميل للمستحقات إلكترونيًا لتأكيد الأوامر تلقائيًا."
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Reset To Draft"
+msgstr "إعادة التعيين إلى المسودة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__residual_value
+msgid "Residual Value"
+msgstr "القيمة المتبقية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__user_id
+msgid "Responsible"
+msgstr "المسئول"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__activity_user_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__activity_user_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__running
+msgid "Running"
+msgstr "جاري"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_has_sms_error
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_has_sms_error
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order_option
+msgid "Sale Options"
+msgstr "خيارات البيع"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.sale_order_view_form_new
+msgid "Sale Order"
+msgstr "أمر بيع"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.digest_digest_view_form
+msgid "Sales"
+msgstr "المبيعات"
+
+#. module: sale_crm
+#: code:addons/sale_crm/models/crm_team.py:0
+#, python-format
+msgid "Sales Analysis"
+msgstr "تحليل المبيعات"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: sale_management
+#: model:ir.model,name:sale_management.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "بند أمر المبيعات"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__order_id
+msgid "Sales Order Reference"
+msgstr "رقم إشارة أمر المبيعات"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_sale_order_calendar
+msgid "Sales Orders"
+msgstr "طلبات المبيعات"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+msgid "Sales Quotation Template Lines"
+msgstr "بنود قالب عرض سعر المبيعات"
+
+#. module: sale_crm
+#: model:ir.model,name:sale_crm.model_crm_team
+msgid "Sales Team"
+msgstr "فريق المبيعات"
+
+#. module: sale_crm
+#: code:addons/sale_crm/models/crm_team.py:0
+#, python-format
+msgid "Sales: Untaxed Total"
+msgstr "المبيعات: الإجمالي بدون ضرائب"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
+msgid "Search Quotation Template"
+msgstr "البحث في قوالب عروض الأسعار"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__seats
+msgid "Seats Number"
+msgstr "عدد المقاعد"
+
+#. module: sale_management
+#: model:ir.model.fields.selection,name:sale_management.selection__sale_order_template_line__display_type__line_section
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "Section"
+msgstr "القسم"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__security_deposit
+msgid "Security Deposit"
+msgstr "مبلغ التأمين"
+
+#. modugts_car_rental
+#: model:ir.model.fields,hgts_car_rental.field_sale_order__booking_type
+msgid "Select the Booking type"
+msgstr "حدد نوع الحجز"
+
+#. module: sale_management
+#: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale_management_1
+msgid ""
+"Selling the same product in different sizes or colors? Try the product grid and populate your orders with multiple quantities of each variant. This feature "
+"also exists in the Purchase application."
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_advance_payment__payment_type__outbound
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_deposit_payment__payment_type__outbound
+msgid "Send Money"
+msgstr ""
+
+#. modules: fleet, sale_management
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state__sequence
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__sequence
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__sequence
+msgid "Sequence"
+msgstr "المسلسل"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_service_type__category__service
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_cost_report__cost_type__service
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search
+msgid "Service"
+msgstr "الخدمة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__service_type_id
+msgid "Service Type"
+msgstr "نوع الخدمة"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_service_types_action model:ir.ui.menu,name:fleet.fleet_vehicle_service_types_menu
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_service_types_view_tree
+msgid "Service Types"
+msgstr "أنواع الخدمة"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_services_action model:ir.model.fields,field_description:fleet.field_fleet_vehicle__service_count
+#: model:ir.ui.menu,name:fleet.fleet_vehicle_log_services_menu model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Services"
+msgstr "الخدمات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_graph
+msgid "Services Costs Per Month"
+msgstr "تكاليف الخدمات لكل شهر"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__log_services model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
+msgid "Services Logs"
+msgstr "سجلات الخدمات"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_log_services
+msgid "Services for vehicles"
+msgstr "الخدمات للمركبات"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_config_settings_action model:ir.ui.menu,name:fleet.fleet_config_settings_menu
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Show all records which has next action date is before today"
+msgstr "عرض كافة السجلات المُعين لها تاريخ إجراء تالي يسبق تاريخ اليوم الجاري"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic
+msgid "Social Media"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__state
+msgid "Stage"
+msgstr "المرحلة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Start Contract"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__date_start
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__state_id model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_state_view_tree
+msgid "State"
+msgstr "المحافظة"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_country_state_form_arabic
+msgid "State Name (Arabic)"
+msgstr "اسم الدولة (عربي)"
+
+#. module: fleet
+#: model:ir.model.constraint,message:fleet.constraint_fleet_vehicle_state_fleet_state_name_unique
+msgid "State name already exists"
+msgstr "اسم المحافظة موجود بالفعل"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__state model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Status"
+msgstr "الحالة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__activity_state model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__activity_state
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة على أساس الأنشطة\n"
+"المتأخرة: تاريخ الاستحقاق مر\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"المخطط: الأنشطة المستقبلية."
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__ar_street model:ir.model.fields,field_description:ar_name.field_res_company__ar_street
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__ar_street model:ir.model.fields,field_description:ar_name.field_res_users__ar_street
+msgid "Street (Arabic)"
+msgstr "شارع (عربي)"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic model_terms:ir.ui.view,arch_db:ar_name.view_partner_form_arabic
+msgid "Street (Arabic)..."
+msgstr "شارع (عربي)"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__ar_street2 model:ir.model.fields,field_description:ar_name.field_res_company__ar_street2
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__ar_street2 model:ir.model.fields,field_description:ar_name.field_res_users__ar_street2
+msgid "Street 2 (Arabic)"
+msgstr "شارع 2 (عربي)"
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic
+msgid "Street2 (Arabic)..."
+msgstr "شارع 2 (عربي)"
+
+#. module: sale_management
+#: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
+msgid ""
+"Struggling with a complex product catalog? Try out the Product Configurator to help sales configure a product with different options: colors, size, capacity, "
+"etc. Make sale orders encoding easier and error-proof."
+msgstr ""
+
+#. modules: sale_cgts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__sale_amount_total
+#: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_amount_total
+msgid "Sum of Orders"
+msgstr "مجموع الطلبات"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__swift
+msgid "Swift Code"
+msgstr "رمز السرعة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag__name
+msgid "Tag Name"
+msgstr "اسم الوسم"
+
+#. module: fleet
+#: model:ir.model.constraint,message:fleet.constraint_fleet_vehicle_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "اسم الوسم موجود بالفعل!"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__ar_repoer_header model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic
+msgid "Tagline (Arabic)"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__tag_ids
+msgid "Tags"
+msgstr "الوسوم"
+
+#. modugts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_authorization_wizard
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__tamm_authorization
+#: model:ir.model.fields,field_descriptgts_car_rental.field_tamm_authorization__tamm_autho
+msgid "Tamm Authorization"
+msgstr "تفويض تم"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.tamm_autho_wizard_view
+msgid "Tamm Authorization Verification"
+msgstr "مصادقة تم"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Tax Total"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment__tax_id
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__tax_id model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__total_tax
+msgid "Taxes"
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template_line__display_type
+msgid "Technical field for UX purpose."
+msgstr "حقل تقني يهدف لتحسين تجربة المستخدم."
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__notes
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Terms and Conditions"
+msgstr "الشروط والأحكام"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__note
+msgid "Terms and conditions"
+msgstr "الشروط والأحكام"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
+msgid ""
+"Thanks to the different filters, Odoo can only print the effective\n"
+"          costs, sort them by type and by vehicle."
+msgstr ""
+"بفضل الفلاتر المختلفة، يمكن لأودو طباعة التكاليف\n"
+"          الفعالة فقط، وترتيبهم حسب النوع وحسب المركبة."
+
+#. modugts_car_rental
+#: code:addgts_car_rental/wizard/document_attachment.py:0
+#, python-format
+msgid ""
+"The \"{vehicle}\" is already checked out in another booking.\n"
+" Please Checkin Vehicle First !"
+msgstr ""
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "The Administrator can set default Terms & Conditions in Sales Settings. Terms set here will show up instead if you select this quotation template."
+msgstr "يمكن للمسؤول تعيين الشروط والأحكام الافتراضية في إعدادات المبيعات. ستظهر الشروط المعينة هنا بدلًا منها إذا اخترت قالب عرض الأسعار هذا."
+
+#. module: ar_name
+#: model:ir.model.fields,help:ar_name.field_res_partner__vat model:ir.model.fields,help:ar_name.field_res_users__vat
+msgid "The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in some legal statements."
+msgstr "رقم التعريف الضريبي. قم بإكماله إذا كانت جهة الاتصال تخضع للضرائب الحكومية. يُستخدم في بعض المستندات القانونية."
+
+#. modugts_car_rental
+#: model:ir.model.fields,hgts_car_rental.field_account_advance_payment__currency_id
+#: model:ir.model.fields,hgts_car_rental.field_account_deposit_payment__currency_id
+msgid "The payment's currency."
+msgstr ""
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_template__mail_template_id
+msgid "This e-mail template will be sent on confirmation. Leave empty to send nothing."
+msgstr "سيتم إرسال هذا القالب البريدي عند التأكيد. اتركه خاليًا لكي لا يتم إرسال شيء."
+
+#. module: sale_management
+#: model:ir.model.fields,help:sale_management.field_sale_order_option__is_present
+msgid "This field will be checked if the option line's product is already present in the quotation."
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__next_assignation_date
+msgid "This is the date at which the car will be available, if not set it means available instantly"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_this_month model:ir.ui.menu,ngts_car_rental.menu_this_month
+msgid "This month"
+msgstr "هذا الشهر"
+
+#. modugts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_this_week model:ir.ui.menu,ngts_car_rental.menu_this_week
+msgid "This week"
+msgstr "هذا الاسبوع"
+
+#. module: sale_management
+#: model:digest.tip,name:sale_management.digest_tip_sale1_management_0 model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
+msgid "Tip: Odoo supports configurable products"
+msgstr ""
+
+#. module: sale_management
+#: model:digest.tip,name:sale_management.digest_tip_sale_management_1 model_terms:digest.tip,tip_description:sale_management.digest_tip_sale_management_1
+msgid "Tip: Sell or buy products in bulk with matrixes"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_services__state__todo
+msgid "To Do"
+msgstr "المهام المراد تنفيذها"
+
+#. module: fleet
+#: model:fleet.vehicle.state,name:fleet.fleet_vehicle_state_to_order
+msgid "To Order"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
+msgid "Today Activities"
+msgstr "نشاطات اليوم"
+
+#. modugts_car_rental
+#: model:ir.ui.menu,ngts_car_rental.menu_checkin
+msgid "Today Checkin"
+msgstr "تسجيل الوصول اليوم"
+
+#. modugts_car_rental
+#: model:ir.ui.menu,ngts_car_rental.menu_checkout
+msgid "Today Checkout"
+msgstr "اليوم الخروج"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__amount_total model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
+msgid "Total"
+msgstr "الإجمالي"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_amount_paid
+msgid "Total Amount Paid"
+msgstr "المبلغ الإجمالي المدفوع"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_document_attachment__total_bill
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__total_bill
+msgid "Total Bill"
+msgstr "إجمالي الفاتورة"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_odometer_cost
+msgid "Total Ext Odometer Price"
+msgstr "إجمالي سعر عداد المسافات الإضافي"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_hours_cost
+msgid "Total Ext. Hours Price"
+msgstr "إجمالي سعر الساعة الإضافية"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__total_tax_included
+msgid "Total Extra Charges (with tax)"
+msgstr "إجمالي الرسوم الإضافية (بدون ضريبة)"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__total_extra_charges
+msgid "Total Extra Charges (without tax)"
+msgstr "إجمالي الرسوم الإضافية (بدون ضريبة)"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_extra_price model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Total Extra Price"
+msgstr "إجمالي السعر الإضافي"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_extra_price_with_taxes
+msgid "Total Extra Price (With Taxes)"
+msgstr "إجمالي السعر الإضافي (مع الضرائب)"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_extra_price_without_taxes
+msgid "Total Extra Price (Without Taxes)"
+msgstr "إجمالي السعر الإضافي (بدون ضرائب)"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__paid_amount
+msgid "Total Paid Amount"
+msgstr "إجمالي المبلغ المدفوع"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_due_amount__total_due_cost
+msgid "Total Payable Amount"
+msgstr "إجمالي المبلغ المستحق"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Total Tax Excluded"
+msgstr "إجمالي الضرائب المستبعدة"
+
+#. modugts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.vgts_car_rental_order_tree
+msgid "Total Tax Included"
+msgstr "شامل الضريبة الإجمالية"
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__total_taxes
+msgid "Total Taxes"
+msgstr "إجمالي الضرائب"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__contract_renewal_total
+msgid "Total of contracts due or overdue minus one"
+msgstr "مجموع العقود المستحقة أو المتأخرة ناقص واحد"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
+msgid ""
+"Track all the services done on your vehicle.\n"
+"            Services can be of many types: occasional repair, fixed maintenance, etc."
+msgstr ""
+"تتبع جميع الخدمات التي تتم على مركبتك.\n"
+"            هناك أنواع كثيرة للخدمات: إصلاح عرضي، صيانة دورية، إلخ."
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_fleet_vehicle__tracker
+msgid "Tracker Install?"
+msgstr "تثبيت المقتفي؟"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__transmission
+msgid "Transmission"
+msgstr "الناقل"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__transmission
+msgid "Transmission Used by the vehicle"
+msgstr "الناقل المُستخدم في هذه المركبة"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_company__twitter
+msgid "Twitter"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__cost_subtype_id
+msgid "Type"
+msgstr "النوع"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__activity_exception_decoration
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__activity_exception_decoration
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__vin_sn
+msgid "Unique number written on the vehicle motor (VIN/SN number)"
+msgstr "رقم فريد مسجل على محرك المركبة (رقم VIN/SN)"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__unit
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__odometer_unit
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__unit
+msgid "Unit"
+msgstr "الوحدة"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__price_unit
+#: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_portal_content_inherit_sale_management
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+msgid "Unit Price:"
+msgstr "سعر الوحدة:"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "وحدة القياس"
+
+#. module: sale_management
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__uom_id
+#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__uom_id
+msgid "Unit of Measure "
+msgstr "وحده القياس "
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,hgts_car_rental.field_sale_order__unit model:ir.model.fields,help:fleet.field_fleet_vehicle__odometer_unit
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__odometer_unit model:ir.model.fields,help:fleet.field_fleet_vehicle_odometer__unit
+msgid "Unit of the odometer "
+msgstr "وحدة عداد المسافات "
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_unread
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_unread
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_unread
+msgid "Unread Messages"
+msgstr "الرسائل الجديدة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__message_unread_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__message_unread_counter
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "عدد الرسائل الجديدة"
+
+#. modules: sale_cgts_car_rental
+#: model:ir.model.fields,hgts_car_rental.field_fleet_vehicle__sale_amount_total model:ir.model.fields,help:sale_crm.field_crm_lead__sale_amount_total
+msgid "Untaxed Total of Confirmed Orders"
+msgstr "إجمالي أوامر البيع المؤكدة بدون إضافة الضرائب"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_form_quote
+msgid "UoM"
+msgstr "وحدة القياس"
+
+#. module: sale_management
+#: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
+msgid ""
+"Use templates to create polished, professional quotes in minutes.\n"
+"                Send these quotes by email and let your customers sign online.\n"
+"                Use cross-selling and discounts to push and boost your sales."
+msgstr ""
+"استخدم القوالب لإنشاء عروض أسعار احترافية منقحة في دقائق.\n"
+"                يمكنك إرسال عروض الأسعار عن طريق البريد الكتروني والسماح للعملاء بتسجيل الدخول عبر الإنترنت.\n"
+"                استخدم نظام البيع المتقاطع والخصومات لدفع وتحسين مبيعاتك."
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_state__sequence
+msgid "Used to order the note stages"
+msgstr "تستخدم لترتيب مراحل الملاحظة"
+
+#. module: fleet
+#: model:res.groups,name:fleet.fleet_group_user
+msgid "User"
+msgstr "المستخدم"
+
+#. module: sale_crm
+#: model:ir.model,name:sale_crm.model_res_users
+msgid "Users"
+msgstr "المستخدمون"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__vat model:ir.model.fields,field_description:ar_name.field_res_users__vat
+msgid "VAT"
+msgstr "ضريبة القيمة المضافة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__car_value
+msgid "Value of the bought vehicle"
+msgstr "قيمة المركبة المشتراة"
+
+#. modules: flegts_car_rental
+#: model:ir.model,name:fleet.model_fleet_vehicle model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__vehicle_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_assignation_log__vehicle_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__vehicle_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__vehicle_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__vehicle_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_odometer__vehicle_id
+#: model_terms:ir.ui.view,archgts_car_rental.report_saleorder_document_inherit_sale_management_new
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_costs_report_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_tree
+msgid "Vehicle"
+msgstr "المركبة"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_log_contract
+msgid "Vehicle Contract"
+msgstr "عقد المركبة"
+
+#. modugts_car_rental
+#: model:ir.ui.menu,ngts_car_rental.submenu_dashoard
+msgid "Vehicle Dashboard"
+msgstr "لوحة قيادة السيارة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__description
+msgid "Vehicle Description"
+msgstr "وصف الآلية"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Vehicle Information"
+msgstr "معلومات السيارة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_report__name
+msgid "Vehicle Name"
+msgstr "اسم المركبة"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_state_action model:ir.model,name:fleet.model_fleet_vehicle_state
+#: model:ir.ui.menu,name:fleet.fleet_vehicle_state_menu
+msgid "Vehicle Status"
+msgstr "حالة المركبة"
+
+#. module: fleet
+#: model:ir.model,name:fleet.model_fleet_vehicle_tag
+msgid "Vehicle Tag"
+msgstr "وسم المركبة"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_tag_action model:ir.ui.menu,name:fleet.fleet_vehicle_tag_menu
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_tag_view_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_tag_view_view_tree
+msgid "Vehicle Tags"
+msgstr "وسوم المركبة"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__vehicle_type
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__vehicle_type
+msgid "Vehicle Type"
+msgstr "نوع السيارة"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__vehicle_id model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__vehicle_id
+msgid "Vehicle concerned by this log"
+msgstr "المركبة المعنية بهذا السجل"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_action model:ir.ui.menu,name:fleet.fleet_vehicle_menu model:ir.ui.menu,name:fleet.fleet_vehicles
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_activity
+msgid "Vehicles"
+msgstr "المركبات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_activity model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+msgid "Vehicles Contracts"
+msgstr "عقود المركبات"
+
+#. module: fleet
+#: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action model:ir.ui.menu,name:fleet.fleet_vehicle_model_menu
+msgid "Vehicles Model"
+msgstr "موديل المركبات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_search
+msgid "Vehicles costs"
+msgstr "تكاليف المركبات"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
+msgid "Vehicles odometers"
+msgstr "عدادات مسافات المركبات"
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__insurer_id
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__vendor_id
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_advance_payment__partner_type__supplier
+#: model:ir.model.fields.selection,ngts_car_rental.selection__account_deposit_payment__partner_type__supplier
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_search
+msgid "Vendor"
+msgstr "المورد"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__inv_ref
+msgid "Vendor Reference"
+msgstr "رقم إشارة المورد"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_model__vendors model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
+msgid "Vendors"
+msgstr "الموردون"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__days_left
+msgid "Warning Date"
+msgstr "تاريخ التحذير"
+
+#. modules: flegts_car_rental
+#: model_terms:ir.ui.view,archgts_car_rental.fleet_vehicle_view_kangts_car_rental model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_kanban
+msgid "Warning: renewal due soon"
+msgstr "تحذير: اقترب موعد التجديد"
+
+#. module: fleet
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__website_message_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract__website_message_ids
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__website_message_ids
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__website_message_ids
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_services__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. modules: flegts_car_rental
+#: model:ir.model.fields.selection,ngts_car_rental.selection__sale_order__booking_type__weekly
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__weekly
+msgid "Weekly"
+msgstr "أسبوعي"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_contract_view_form
+msgid "Write here all other information relative to this contract"
+msgstr "اكتب هنا كافة المعلومات المرتبطة بهذا العقد"
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle_log_contract__notes
+msgid "Write here all supplementary information relative to this contract"
+msgstr "اكتب هنا كافة المعلومات التكميلية المرتبطة بهذا العقد"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
+msgid "Write here any other information related to the service completed."
+msgstr "اكتب هنا أية معلومات أخرى تتعلق بالخدمة المكتملة."
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "Write here any other information related to this vehicle"
+msgstr ""
+
+#. module: fleet
+#: model:ir.model.fields,help:fleet.field_fleet_vehicle__model_year
+msgid "Year of the model"
+msgstr "عام الموديل"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_log_contract__cost_frequency__yearly
+msgid "Yearly"
+msgstr "سنويًا"
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_odometer_action
+msgid "You can add various odometer entries for all vehicles."
+msgstr "يمكنك إضافة عدة قيود لعداد المسافات لكافة المركبات."
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_state_action
+msgid ""
+"You can customize available status to track the evolution of\n"
+"            each vehicle. Example: active, being repaired, sold."
+msgstr ""
+"يمكنك تعديل الحالة المتاحة لتتبع تطور\n"
+"            كل مركبة. مثال: نشط، جاري إصلاحه ، مباع."
+
+#. module: fleet
+#: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_model_action
+msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
+msgstr "يمكنك تعريف أكثر من موديل (مثلًا: أ3، أ4) لكل علامة تجارية (أودي)."
+
+#. module: sale_crm
+#: code:addons/sale_crm/wizard/crm_opportunity_to_quotation.py:0
+#, python-format
+msgid "You can only apply this action from a lead."
+msgstr ""
+
+#. module: sale_management
+#: code:addons/sale_management/models/sale_order.py:0
+#, python-format
+msgid "You cannot add options to a confirmed order."
+msgstr "لا يمكنك إضافة خيارات لأمر مؤكد."
+
+#. module: sale_management
+#: code:addons/sale_management/models/sale_order_template.py:0
+#, python-format
+msgid "You cannot change the type of a sale quote line. Instead you should delete the current line and create a new line of the proper type."
+msgstr ""
+
+#. module: sale_management
+#: code:addons/sale_management/models/sale_order.py:0
+#, python-format
+msgid ""
+"Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
+" Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
+msgstr ""
+
+#. module: sale_management
+#: code:addons/sale_management/models/sale_order_template.py:0
+#, python-format
+msgid "Your template cannot contain products from multiple companies."
+msgstr ""
+
+#. module: sale_management
+#: code:addons/sale_management/models/sale_order_template.py:0
+#, python-format
+msgid ""
+"Your template contains products from company %(product_company)s whereas your template belongs to company %(template_company)s. \n"
+" Please change the company of your template or remove the products from other companies."
+msgstr ""
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.res_company_arabic model_terms:ir.ui.view,arch_db:ar_name.view_partner_form_arabic
+msgid "ZIP (Arabic)"
+msgstr "ZIP (عربي)"
+
+#. module: ar_name
+#: model:ir.model.fields,field_description:ar_name.field_res_bank__ar_zip model:ir.model.fields,field_description:ar_name.field_res_company__ar_zip
+#: model:ir.model.fields,field_description:ar_name.field_res_partner__ar_zip model:ir.model.fields,field_description:ar_name.field_res_users__ar_zip
+msgid "Zip (Arabic)"
+msgstr "ZIP (عربي)"
+
+#. modugts_car_rental
+#: model:ir.actions.act_window,ngts_car_rental.action_menu_checkout
+msgid "checkout"
+msgstr "الدفع"
+
+#. module: sale_management
+#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
+msgid "days"
+msgstr "يوم"
+
+#. modugts_car_rental
+#: model:ir.model,ngts_car_rental.model_document_attachment
+msgid "document.attachment"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model,ngts_car_rental.model_due_amount
+msgid "due.amount"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "e.g. Model S"
+msgstr "مثلًا: الموديل س"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "e.g. PAE 326"
+msgstr "مثلًا: PAE 326"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_model_view_form
+msgid "e.g. Tesla"
+msgstr "مثلًا: تسلا"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__odometer_unit__kilometers
+msgid "km"
+msgstr "كم"
+
+#. module: fleet
+#: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle__odometer_unit__miles
+msgid "mi"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.model.fields,field_descriptgts_car_rental.field_sale_order__odometer_ids
+msgid "odometer"
+msgstr ""
+
+#. modugts_car_rental
+#: model:ir.actions.server,ngts_car_rental.ir_cron_scheduler_overdue_action1_ir_actions_server
+#: model:ir.cron,cron_ngts_car_rental.ir_cron_scheduler_overdue_action1 model:ir.cron,ngts_car_rental.ir_cron_scheduler_overdue_action1
+msgid "over due schedule alert"
+msgstr ""
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "show the contract for this vehicle"
+msgstr "عرض عقد هذه المركبة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "show the odometer logs for this vehicle"
+msgstr "عرض سجلات عداد المسافات لهذه المركبة"
+
+#. module: fleet
+#: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+msgid "show the services logs for this vehicle"
+msgstr "عرض سجلات خدمات هذه المركبة"
+
+#. modugts_car_rental
+#: model:ir.model,ngts_car_rental.model_tamm_authorization
+msgid "tamm.authorization"
+msgstr ""
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "أزيز"
+msgstr ""
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "شارع"
+msgstr ""
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "شارع 2 ..."
+msgstr ""
+
+#. module: ar_name
+#: model_terms:ir.ui.view,arch_db:ar_name.view_res_bank_form_arabic
+msgid "مدينة"
+msgstr ""

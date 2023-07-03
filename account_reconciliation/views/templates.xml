@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="assets_backend" name="account_reconciliation assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/scss" href="/account_reconciliation/static/src/scss/account_reconciliation.scss"/>
+            <script type="text/javascript" src="/account_reconciliation/static/src/js/reconciliation_action.js"/>
+            <script type="text/javascript" src="/account_reconciliation/static/src/js/reconciliation_model.js"/>
+            <script type="text/javascript" src="/account_reconciliation/static/src/js/reconciliation_renderer.js"/>
+        </xpath>
+    </template>
+
+</odoo>

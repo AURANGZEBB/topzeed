@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="view_accounts_hierarchy" model="ir.ui.view">
+		<field name="name">account.hierarchy.form</field>
+		<field name="model">account.hierarchy</field>
+		<field name="arch" type="xml">
+			<form string="Chart of Account Hierarchy">
+                <p class="oe_grey">
+                    Note: If there are no parent accounts defined for Accounts, no heirarchical view will be presented.
+				</p>
+				<group>					
+					<group>					
+						<field name="company_id" options="{'no_create': True, 'no_open': True}"/>
+                        <field name="target_moves"/>
+					</group>					
+
+					<group>					
+						<field name="date_from" class="oe_inline" autocomplete="off"/>							
+						<field name="date_to" class="oe_inline" autocomplete="off"/>
+					</group>
+
+					<group>					
+                        <field name="auto_unfold"/>
+					</group>
+				</group>
+				
+				<footer>
+                    <button 
+                        string="Open Hierarchy"
+						name="open_account_hierarchy" 
+                        type="object"
+						class="oe_highlight" />
+
+                    <button 
+                        string="Print PDF"
+						name="print_pdf_report_wizard" 
+                        type="object"
+						class="oe_highlight" />
+
+					<button 
+                        string="Print XLS"
+						name="print_xls_report" 
+                        type="object"
+						class="oe_highlight" />
+                    
+                    or
+					
+                    <button 
+                        string="Cancel" 
+                        class="btn-secondary" 
+                        type="object"
+                        special="cancel" />
+				</footer>
+			</form>
+		</field>
+	</record>
+
+	<record id="action_account_hierarchy" model="ir.actions.act_window">
+		<field name="name">Chart of Accounts Hierarchy</field>
+		<field name="res_model">account.hierarchy</field>		
+		<field name="view_mode">tree,form</field>
+		<field name="view_id" ref="view_accounts_hierarchy" />
+		<field name="target">new</field>
+	</record>
+
+    <menuitem
+        id="menu_account_hierarchy"
+        name="Chart of Accounts Hierarchy"
+        parent="account.menu_finance"
+        action="action_account_hierarchy"        
+        groups="odoo_account_hierarchy.group_account_hierarchy_user"        
+        sequence="31"/>
+</odoo>

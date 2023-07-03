@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="report_account_hierarchy_wizard">
+        <t t-call="web.html_container">
+            <t t-call="web.internal_layout">
+                <t t-call='odoo_account_hierarchy.report_account_hierarchy_body'/>
+            </t>
+        </t>
+    </template>
+
+    <template id="report_account_hierarchy">
+        <t t-raw="'&lt;base href=%s&gt;' % base_url"/>
+        <t t-call="web.html_container">
+            <t t-call-assets="odoo_account_hierarchy.assets_account_hierarchy_report" t-js="False"/>
+            <t t-call='odoo_account_hierarchy.report_account_hierarchy_body'/>
+        </t>
+    </template>
+
+    <template id="report_account_hierarchy_body">
+        <div class="container account_hierarchy_reports_page">
+            <div class="row" style="margin-top:15px !important;">
+                <div class="col-6 text-left">
+                    <h4>Chart of Accounts Hierarchy</h4>
+                </div>
+                <div class="col-6 text-right">
+                    <h6><t t-if="company_name" t-esc="company_name"/></h6>
+                </div>
+            </div>
+            <table class="table" style="margin-top:15px !important;">
+                <thead>
+                    <tr class="o_report_header">
+                        <th class="text-left">Code</th>
+                        <th class="text-left">Name</th>
+                        <th class="text-left">Type</th>
+                        <th class="text-left">Debit</th>
+                        <th class="text-left">Credit</th>
+                        <th class="text-left">Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-set="line_space_td" t-value="'margin-left: 0'"/>
+                    <t t-foreach="lines" t-as="a">
+                        <t t-set="line_space_td" t-value="'background-position: ' +  str( 15*(a['level']-1) ) + 'px; padding-left: ' +  str((4 + 15*(a['level']-1))) + 'px;'"/>
+                        <t t-set="trAttClass" t-value="'accounts_heirarchy_report_lines_style'"/>
+                        <t t-set="column" t-value="0" />
+                        <tr t-att-class="trAttClass">                                                  
+                            <t t-set="column" t-value="0" />                            
+                            <t t-foreach="a['line_columns']" t-as="col">
+                                <t t-set="column" t-value="column + 1" />
+                                <td>
+                                    <t t-if="column == 1">
+                                        <span t-att-style="line_space_td"></span>
+                                        
+                                        <t t-if="a.get('unfoldable')">
+                                            <span> <i class="fa fa-fw fa-caret-down"></i> </span>
+                                        </t>
+                                        <span><t t-raw="col" /></span>
+                                    </t> 
+                                    <t t-else=""> 
+                                        <span><t t-raw="col"/></span>
+                                    </t>      
+                                </td>
+                            </t>
+                        </tr>
+                    </t>
+                </tbody>
+            </table> 
+        </div>
+    </template>
+
+</odoo>

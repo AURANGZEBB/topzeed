@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <record id="contact_inherit_form1" model="ir.ui.view">
+        <field name="name">contact.inherit.form1</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="iqama_no" attrs="{'required' : [('is_vendor', '=', False)]}"/>
+                <field name="iqama_expiry" />
+<!--                <field name="driving_number" />-->
+                <field name="driver_expiry" attrs="{'required' : [('is_vendor', '=', False)]}" on_change="onchange_driver_expiry(driver_expiry)"/>
+                <field name="nationality" options="{'no_create': True}"/>
+            </xpath>
+            <field name="mobile" position="attributes">
+                <attribute name="attrs">{'required' : [('is_vendor', '=', False)]}</attribute>
+            </field>
+            <field name="email" position="attributes">
+                <attribute name="attrs">{'required' : [('is_vendor', '=', False)]}</attribute>
+            </field>
+            <field name="street" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
+            <field name="city" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
+            <field name="country_id" position="attributes">
+                <attribute name="required">1</attribute>
+            </field>
+
+            <xpath expr="//field[@name='company_type']" position="after">
+                <label for="is_vendor" string="Is Vendor?"/>
+                <field name="is_vendor"
+                            options="{'horizontal': true}"/>
+            </xpath>
+<!--            <field name="zip" position="attributes">-->
+<!--                <attribute name="required">1</attribute>-->
+<!--            </field>-->
+
+<!--            <xpath expr="//field[@name='vat']" position="after">-->
+<!--&lt;!&ndash;                <field name="iqama_no"/>&ndash;&gt;-->
+<!--                <field name="iqama_expiry"/>-->
+<!--                <field name="driver_expiry"/>-->
+<!--&lt;!&ndash;                <field name="nationality"/>&ndash;&gt;-->
+<!--            </xpath>-->
+        </field>
+    </record>
+
+
+
+
+</odoo>

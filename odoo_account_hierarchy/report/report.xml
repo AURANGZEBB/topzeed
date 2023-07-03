@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="action_account_hierarchy_report" model="ir.actions.report">
+        <field name="name">Account Hierarchy Report</field>
+        <field name="model">account.hierarchy</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">odoo_account_hierarchy.report_account_hierarchy_wizard</field>
+        <field name="report_file">odoo_account_hierarchy.report_account_hierarchy_wizard</field>
+    </record>
+</odoo>
